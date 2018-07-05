@@ -4,7 +4,8 @@
 * Author:  Seanharrs
 * Version: v0.1
 */
-.navigation-bar .tabs .tab-item, .navigation-bar .tabs, .navigation-bar .search-container, .footer-bar {
+.navigation-bar .tabs .tab-item, .navigation-bar .tabs, .navigation-bar .search-container, .footer-bar,
+.fill, .nav-items {
     background-color: #222 !important;
 }
 
@@ -13,7 +14,8 @@
 }
 
 .navigation-bar__login-button, .auth-container--modal-view, .button, .sign-up-pagebox, .sign-up-button,
-.text-input, .sign-up-form__show-password-button, .bar .linkitem {
+.text-input, .sign-up-form__show-password-button, .bar .linkitem, .front-door-banner__header,
+.front-door-banner__subheader {
     color: #DDD !important;
 }
 
@@ -36,7 +38,7 @@
 
 .input-wrapper {
     background: #222 !important;
-    border: 1px solid #7c7c7c !important;
+    border: 1px solid #7C7C7C !important;
 }
 
 .form-error {
@@ -44,10 +46,18 @@
 }
 
 .text-input {
-    background-color: #2c2c2c !important;
+    background-color: #2C2C2C !important;
 }
 
 .footer-bar .bar {
     border-top: 1px solid #AEAEAE !important;
+}
+
+.nav-items {
+    color: #888 !important;
+    border-bottom: 1px solid #2C2C2C !important;
+}
+.nav-items .selected {
+    color: #EEE !important;
 }
 }

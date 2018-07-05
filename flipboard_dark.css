@@ -5,7 +5,7 @@
 * Version: v0.1
 */
 .navigation-bar .tabs .tab-item, .navigation-bar .tabs, .navigation-bar .search-container, .footer-bar,
-.fill, .nav-items {
+.fill, .nav-items, .page-gap, .grid-page, .front-door {
     background-color: #222 !important;
 }
 
@@ -15,7 +15,7 @@
 
 .navigation-bar__login-button, .auth-container--modal-view, .button, .sign-up-pagebox, .sign-up-button,
 .text-input, .sign-up-form__show-password-button, .bar .linkitem, .front-door-banner__header,
-.front-door-banner__subheader {
+.front-door-banner__subheader, a, .top-attribution, .excerpt {
     color: #DDD !important;
 }
 
@@ -55,9 +55,14 @@
 
 .nav-items {
     color: #888 !important;
-    border-bottom: 1px solid #2C2C2C !important;
+    border-bottom: 1px solid #666 !important;
 }
+
 .nav-items .selected {
     color: #EEE !important;
+}
+
+div.gridline-x, div.gridline-y {
+    background-color: #333 !important;
 }
 }

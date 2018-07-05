@@ -1,0 +1,23 @@
+@-moz-document domain("flipboard.com") {
+/*
+* Name:    Flipboard Dark
+* Author:  Seanharrs
+* Version: v0.1
+*/
+
+.navigation-bar .tabs .tab-item, .navigation-bar .tabs, .navigation-bar .search-container {
+    background-color: #000 !important;
+}
+
+.navigation-bar__login-button {
+    color: #DDD !important;
+}
+
+.search-icon g {
+    stroke: #F7F7F7 !important;
+}
+
+.button--primary {
+    color: #000 !important;
+}
+}

@@ -4,8 +4,9 @@
 * Author:  Seanharrs
 * Version: v0.1
 */
-.navigation-bar .tabs .tab-item, .navigation-bar .tabs, .navigation-bar .search-container, .footer-bar,
-.fill, .nav-items, .page-gap, .grid-page, .front-door {
+
+.navigation-bar .tabs .tab-item, .navigation-bar .search-container, .footer-bar,
+.nav-items, .page-gap, .grid-page, .front-door, .fill {
     background-color: #222 !important;
 }
 
@@ -15,12 +16,16 @@
 
 .navigation-bar__login-button, .auth-container--modal-view, .button, .sign-up-pagebox, .sign-up-button,
 .text-input, .sign-up-form__show-password-button, .bar .linkitem, .front-door-banner__header,
-.front-door-banner__subheader, a, .top-attribution, .excerpt {
+.front-door-banner__subheader, .headline, .topic-title, .top-attribution, .excerpt {
     color: #DDD !important;
 }
 
-.search-icon g {
+.search-icon g, .show-more-icon:hover path {
     stroke: #F7F7F7 !important;
+}
+
+.show-more path {
+    stroke: #888 !important;
 }
 
 .close-button g {
@@ -32,12 +37,10 @@
 }
 
 .button {
-    background: #222 !important;
     border: 1px solid #AEAEAE !important;
 }
 
 .input-wrapper {
-    background: #222 !important;
     border: 1px solid #7C7C7C !important;
 }
 
@@ -45,7 +48,7 @@
     color: #D22 !important;
 }
 
-.text-input {
+.text-input, .button, .input-wrapper, .form-error, div.gridline-x, div.gridline-y {
     background-color: #2C2C2C !important;
 }
 
@@ -58,11 +61,11 @@
     border-bottom: 1px solid #666 !important;
 }
 
-.nav-items .selected {
+.nav-items .selected, .nav-items span:hover {
     color: #EEE !important;
 }
 
-div.gridline-x, div.gridline-y {
-    background-color: #333 !important;
+.logo {
+    background-color: #FFF !important;
 }
 }

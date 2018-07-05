@@ -4,47 +4,50 @@
 * Author:  Seanharrs
 * Version: v0.1
 */
-
-.navigation-bar .tabs .tab-item, .navigation-bar .tabs, .navigation-bar .search-container {
-  background-color: #000 !important;
+.navigation-bar .tabs .tab-item, .navigation-bar .tabs, .navigation-bar .search-container, .footer-bar {
+    background-color: #222 !important;
 }
 
 .auth-container--modal-view {
-  background-color: rgba(20, 20, 20, 0.97) !important;
+    background-color: rgba(30, 30, 30, 0.97) !important;
 }
 
-.navigation-bar__login-button, .auth-container--modal-view, .button, .sign-up-pagebox,
-.sign-up-button, .text-input, .sign-up-form__show-password-button {
-  color: #DDD !important;
+.navigation-bar__login-button, .auth-container--modal-view, .button, .sign-up-pagebox, .sign-up-button,
+.text-input, .sign-up-form__show-password-button, .bar .linkitem {
+    color: #DDD !important;
 }
 
 .search-icon g {
-  stroke: #F7F7F7 !important;
+    stroke: #F7F7F7 !important;
 }
 
 .close-button g {
-  fill: #DDD !important
+    fill: #DDD !important
 }
 
-.button--primary {
-  color: #000 !important;
+.navigation-bar .tabs .tab-item .button--primary {
+    color: #000 !important;
 }
 
 .button {
-  background: #222 !important;
-  border: 1px solid #AEAEAE !important;
+    background: #222 !important;
+    border: 1px solid #AEAEAE !important;
 }
 
 .input-wrapper {
-  background: #222 !important;
-  border: 1px solid #7c7c7c !important;
+    background: #222 !important;
+    border: 1px solid #7c7c7c !important;
 }
 
 .form-error {
-  color: #D22 !important;
+    color: #D22 !important;
 }
 
 .text-input {
-  background-color: #222 !important;
+    background-color: #2c2c2c !important;
+}
+
+.footer-bar .bar {
+    border-top: 1px solid #AEAEAE !important;
 }
 }

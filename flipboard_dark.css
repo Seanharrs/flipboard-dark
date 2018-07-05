@@ -6,18 +6,45 @@
 */
 
 .navigation-bar .tabs .tab-item, .navigation-bar .tabs, .navigation-bar .search-container {
-    background-color: #000 !important;
+  background-color: #000 !important;
 }
 
-.navigation-bar__login-button {
-    color: #DDD !important;
+.auth-container--modal-view {
+  background-color: rgba(20, 20, 20, 0.97) !important;
+}
+
+.navigation-bar__login-button, .auth-container--modal-view, .button, .sign-up-pagebox,
+.sign-up-button, .text-input, .sign-up-form__show-password-button {
+  color: #DDD !important;
 }
 
 .search-icon g {
-    stroke: #F7F7F7 !important;
+  stroke: #F7F7F7 !important;
+}
+
+.close-button g {
+  fill: #DDD !important
 }
 
 .button--primary {
-    color: #000 !important;
+  color: #000 !important;
+}
+
+.button {
+  background: #222 !important;
+  border: 1px solid #AEAEAE !important;
+}
+
+.input-wrapper {
+  background: #222 !important;
+  border: 1px solid #7c7c7c !important;
+}
+
+.form-error {
+  color: #D22 !important;
+}
+
+.text-input {
+  background-color: #222 !important;
 }
 }

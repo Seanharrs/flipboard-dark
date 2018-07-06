@@ -5,8 +5,9 @@
 * Version: v0.1
 */
 
-.navigation-bar .tabs .tab-item, .navigation-bar .search-container, .footer-bar,
-.nav-items, .page-gap, .grid-page, .front-door, .fill {
+.navigation-bar .tabs .tab-item, .navigation-bar .search-container, .footer-bar, .nav-items, .page-gap,
+.grid-page, .front-door, .fill, .postbox, .toc-franchise, .loading, .loaded, .load-more, .content-loading,
+.notifications-list {
     background-color: #222 !important;
 }
 
@@ -16,12 +17,27 @@
 
 .navigation-bar__login-button, .auth-container--modal-view, .button, .sign-up-pagebox, .sign-up-button,
 .text-input, .sign-up-form__show-password-button, .bar .linkitem, .front-door-banner__header,
-.front-door-banner__subheader, .headline, .topic-title, .top-attribution, .excerpt {
+.front-door-banner__subheader, .headline, .topic-title, .top-attribution, .excerpt, .favorites__favorite,
+.heading, .subheading, .postbox, .from, .author, .loading, .loaded, .load-more, .content-loading-text,
+.notifications-list {
     color: #DDD !important;
 }
 
-.search-icon g, .show-more-icon:hover path {
+.hint-panel {
+    background-color: #D22 !important;
+}
+
+.hint-panel .button {
+    background-color: #333 !important;
+    border: 1px solid #2C2C2C !important;
+}
+
+.search-icon g, .show-more-icon:hover path, .notification-cell g {
     stroke: #F7F7F7 !important;
+}
+
+.compose-icon polygon+polygon, .tab-item--notifications path {
+    fill: #F7F7F7 !important;
 }
 
 .show-more path {
@@ -29,7 +45,7 @@
 }
 
 .close-button g {
-    fill: #DDD !important
+    fill: #DDD !important;
 }
 
 .navigation-bar .tabs .tab-item .button--primary {
@@ -48,7 +64,24 @@
     color: #D22 !important;
 }
 
-.text-input, .button, .input-wrapper, .form-error, div.gridline-x, div.gridline-y {
+.postbox {
+    border: 1px solid #444 !important;
+}
+
+.postbox-listitem + .postbox-listitem {
+    border-top: 1px solid #444 !important;
+}
+
+.favorites-menu {
+    border-right: 1px solid #444 !important;
+}
+
+.navigation-bar>.bar, .notifications-list, .notification-cell {
+    border-bottom: 1px solid #444 !important;
+}
+
+.text-input, .button, .input-wrapper, .form-error, div.gridline-x, div.gridline-y, .postbox,
+.notification-cell:hover {
     background-color: #2C2C2C !important;
 }
 
@@ -61,11 +94,15 @@
     border-bottom: 1px solid #666 !important;
 }
 
-.nav-items .selected, .nav-items span:hover {
+.nav-items .selected, .nav-items span:hover, .favorites__favorite.active, .hint-panel {
     color: #EEE !important;
 }
 
 .logo {
     background-color: #FFF !important;
+}
+
+.notifications-list {
+    border-left: 1px solid #444 !important;
 }
 }

@@ -2,138 +2,148 @@
 /*
 * Name:    Flipboard Dark
 * Author:  Seanharrs
-* Version: v0.1
+* Version: v0.2
 */
 
 .navigation-bar .tabs .tab-item, .navigation-bar .search-container, .footer-bar, .nav-items, .page-gap,
 .grid-page, .front-door, .fill, .postbox, .toc-franchise, .loading, .loaded, .load-more, .content-loading,
-.notifications-list, .add-favorite-view-container .add-favorite-view, .search-passion .text-input {
-    background-color: #222 !important;
+.notifications-list, .add-favorite-view-container .add-favorite-view, .search-passion .text-input,
+.search__panel, .search__zero-state, .search__more-results,
+a.topic-tag:hover, .topic-tag:hover, .selected a.topic-tag, .selected .topic-tag {
+  background-color: #222 !important;
 }
 
 .auth-container--modal-view {
-    background-color: rgba(30, 30, 30, 0.97) !important;
+  background-color: rgba(30, 30, 30, 0.97) !important;
 }
 
 .navigation-bar__login-button, .auth-container--modal-view, .button, .sign-up-pagebox, .sign-up-button,
 .text-input, .sign-up-form__show-password-button, .bar .linkitem, .front-door-banner__header,
 .front-door-banner__subheader, .headline, .topic-title, .top-attribution, .excerpt, .favorites__favorite,
 .heading, .subheading, .postbox, .from, .author, .loading, .loaded, .load-more, .content-loading-text,
-.notifications-list, .add-favorite-view-container .sub-message, .add-favorite-view-container .add-favorite-view .favorites .favorite--not-found, .favorite .name, .section-header-title .header-title,
-.section-metrics .metric, .follow-button, .show-more-icon .show-more-wrapper,
-.meatballs-menu__dropdown-menu {
-    color: #DDD !important;
+.notifications-list, .add-favorite-view-container .sub-message,
+.add-favorite-view-container .add-favorite-view .favorites .favorite--not-found, .favorite .name,
+.section-header-title .header-title, .section-metrics .metric, .follow-button, .show-more-icon .show-more-wrapper,
+.meatballs-menu__dropdown-menu, .search__zero-state-featured, .search__input, .search__results li {
+  color: #DDD !important;
 }
 
 .hint-panel {
-    background-color: #D22 !important;
+  background-color: #D22 !important;
 }
 
 .hint-panel .button, .meatballs-menu__dropdown-menu {
-    background-color: #333 !important;
-    border: 1px solid #2C2C2C !important;
+  background-color: #333 !important;
+  border: 1px solid #2C2C2C !important;
 }
 
 .search-icon g, .show-more-icon:hover path, .notification-cell g, .follow-button .check-mark {
-    stroke: #F7F7F7 !important;
+  stroke: #F7F7F7 !important;
 }
 
 .compose-icon polygon+polygon, .tab-item--notifications path {
-    fill: #F7F7F7 !important;
+  fill: #F7F7F7 !important;
 }
 
 .show-more path, .share-menu .icon-button {
-    stroke: #888 !important;
+  stroke: #888 !important;
 }
 
 .close-button g {
-    fill: #DDD !important;
+  fill: #DDD !important;
 }
 
 .navigation-bar .tabs .tab-item .button--primary {
-    color: #000 !important;
+  color: #000 !important;
 }
 
 .button {
-    border: 1px solid #AEAEAE !important;
+  border: 1px solid #AEAEAE !important;
 }
 
-.input-wrapper {
-    border: 1px solid #7C7C7C !important;
+.input-wrapper, a.topic-tag, .topic-tag {
+  border: 1px solid #7C7C7C !important;
 }
 
 .form-error, .add-favorite-view-container .add-favorite-view .recommended .recommended-title,
 .add-favorite-view-container .sub-message.filled {
-    color: #D22 !important;
+  color: #D22 !important;
 }
 
-.postbox, .section-header-title.topic, .show-more-menu {
-    border: 1px solid #444 !important;
+.postbox, .section-header-title.topic, .show-more-menu, .search__panel, .search__zero-state {
+  border: 1px solid #444 !important;
 }
 
 .section-header-title.topic {
-    border-width: 2px !important;
+  border-width: 2px !important;
 }
 
-.postbox-listitem + .postbox-listitem {
-    border-top: 1px solid #444 !important;
+.postbox-listitem + .postbox-listitem, .search__zero-state-footer {
+  border-top: 1px solid #444 !important;
 }
 
 .favorites-menu {
-    border-right: 1px solid #444 !important;
+  border-right: 1px solid #444 !important;
 }
 
-.navigation-bar>.bar, .notifications-list, .notification-cell, .add-favorite-view-container .add-favorite-view .add-favorites .search-passion {
-    border-bottom: 1px solid #444 !important;
+.navigation-bar>.bar, .notifications-list, .notification-cell, .add-favorite-view-container .add-favorite-view .add-favorites .search-passion,
+.search__result, .search__results--topics {
+  border-bottom: 1px solid #444 !important;
 }
 
 .text-input, .button, .input-wrapper, .form-error, div.gridline-x, div.gridline-y, .postbox,
-.notification-cell:hover, .show-more-menu, .show-more-menu .loaded {
-    background-color: #2C2C2C !important;
+.notification-cell:hover, .show-more-menu, .show-more-menu .loaded, .search__zero-state-featured,
+.search__result--top li, a.topic-tag, .topic-tag {
+  background-color: #2C2C2C !important;
 }
 
 .footer-bar .bar {
-    border-top: 1px solid #AEAEAE !important;
+  border-top: 1px solid #AEAEAE !important;
 }
 
 .nav-items {
-    color: #888 !important;
-    border-bottom: 1px solid #666 !important;
+  color: #888 !important;
+  border-bottom: 1px solid #666 !important;
 }
 
 .nav-items .selected, .nav-items span:hover, .favorites__favorite.active, .hint-panel {
-    color: #EEE !important;
+  color: #EEE !important;
 }
 
-.logo, .meatballs-menu-button:hover .meatballs-menu-button__meatball,
+.meatballs-menu-button:hover .meatballs-menu-button__meatball,
 .meatballs-menu-button:hover .meatballs-menu-button__meatball--light {
-    background-color: #FFF !important;
+  background-color: #FFF !important;
 }
 
 .notifications-list {
-    border-left: 1px solid #444 !important;
+  border-left: 1px solid #444 !important;
 }
 
 .follow-button {
-    border: 1px solid  rgba(255, 255, 255, 0.7) !important;
+  border: 1px solid  rgba(255, 255, 255, 0.7) !important;
 }
-.follow-button.hover {
-    background-color: #333 !important;
+
+.follow-button.hover, .search__results li.selected:not(.search__result-topic) {
+  background-color: #333 !important;
 }
 
 .meatballs-menu-button__meatball, .meatballs-menu-button__meatball--light {
-    background-color: #DDD !important;
+  background-color: #DDD !important;
 }
 
 .meatballs-menu-button--open .meatballs-menu-button__meatball {
-    background-color: #AEAEAE !important;
+  background-color: #AEAEAE !important;
 }
 
 .meatballs-menu__dropdown-menu {
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5) !important;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5) !important;
 }
 
 .meatballs-menu__dropdown-menu li:hover {
-    background-color: #444 !important;
+  background-color: #444 !important;
+}
+
+.search__zero-state-featured-link {
+  border-bottom: 1px solid #555 !important;
 }
 }

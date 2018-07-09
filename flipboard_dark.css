@@ -10,7 +10,7 @@
 .notifications-list, .add-favorite-view-container .add-favorite-view, .search-passion .text-input,
 .search__panel, .search__zero-state, .search__more-results, a.topic-tag:hover, .topic-tag:hover,
 .selected a.topic-tag, .selected .topic-tag, .feed-layout-scope, .newspaper-layout-scope .carousel-posts__item,
-.layout-view {
+.layout-view, body {
   background-color: #222 !important;
 }
 
@@ -27,7 +27,8 @@
 .section-header-title .header-title, .section-metrics .metric, .follow-button, .show-more-icon .show-more-wrapper,
 .meatballs-menu__dropdown-menu, .search__zero-state-featured, .search__input, .search__results li, .forgot-link,
 .newspaper-layout-scope, .newspaper-layout-scope h2, .post__title, .newspaper-layout-scope .group-magazine__create-description,
-.newspaper-layout-scope .influencer__description, .tile-layout-scope {
+.newspaper-layout-scope .influencer__description, .tile-layout-scope, body, .magazine-tile .tile .inner-rect.revamped,
+.dropdown-menu .dropdown-item {
   color: #DDD !important;
 }
 
@@ -40,7 +41,8 @@
   border: 1px solid #2C2C2C !important;
 }
 
-.search-icon g, .show-more-icon:hover path, .notification-cell g, .follow-button .check-mark {
+.search-icon g, .show-more-icon:hover path, .notification-cell g, .follow-button .check-mark, .toc-content .view-as g>g,
+.edit-icon .icon-group-inner {
   stroke: #F7F7F7 !important;
 }
 
@@ -64,7 +66,7 @@
   border: 1px solid #AEAEAE !important;
 }
 
-.search__result--topic .topic-tag {
+.search__result--topic .topic-tag, .magazine-tile .tile .inner-rect, .dropdown-menu {
   border: 1px solid #7C7C7C !important;
 }
 
@@ -77,7 +79,7 @@
   border: 1px solid #444 !important;
 }
 
-.section-header-title.topic {
+.section-header-title.topic, .magazine-tile .tile .inner-rect {
   border-width: 2px !important;
 }
 
@@ -94,9 +96,9 @@
   border-bottom: 1px solid #444 !important;
 }
 
-.text-input, .button:not(.facebook-connect), .input-wrapper, .form-error, div.gridline-x, div.gridline-y, .postbox,
-.notification-cell:hover, .show-more-menu, .show-more-menu .loaded, .search__zero-state-featured,
-.search__result--top li, a.topic-tag, .topic-tag, .newspaper-layout-scope .newspaper-header hr {
+.text-input, .button:not(.facebook-connect), .input-wrapper, .form-error, div.gridline-x, div.gridline-y, .postbox, .notification-cell:hover,
+.show-more-menu, .show-more-menu .loaded, .search__zero-state-featured, .search__result--top li, a.topic-tag, .topic-tag,
+.newspaper-layout-scope .newspaper-header hr, .magazine-tile .tile .inner-rect.revamped, .profile-header-content .text[contentEditable="true"] {
   background-color: #2C2C2C !important;
 }
 
@@ -109,7 +111,8 @@
   border-bottom: 1px solid #666 !important;
 }
 
-.nav-items .selected, .nav-items a:hover, .favorites__favorite.active, .favorites__favorite:active, .favorites__favorite .hover, .hint-panel {
+.nav-items .selected, .nav-items a:hover, .favorites__favorite.active, .favorites__favorite:active, .favorites__favorite .hover, .hint-panel,
+.profile-metrics .selected {
   color: #EEE !important;
 }
 
@@ -126,7 +129,7 @@
   border: 1px solid  rgba(255, 255, 255, 0.7) !important;
 }
 
-.follow-button.hover, .search__results li.selected:not(.search__result-topic) {
+.follow-button.hover, .search__results li.selected:not(.search__result-topic), .dropdown-menu .dropdown-item {
   background-color: #333 !important;
 }
 
@@ -142,7 +145,7 @@
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5) !important;
 }
 
-.meatballs-menu__dropdown-menu li:hover {
+.meatballs-menu__dropdown-menu li:hover, .dropdown-menu .dropdown-item:hover {
   background-color: #444 !important;
 }
 
@@ -164,5 +167,13 @@
 
 .favorites__favorite, .favorites__favorite a {
   opacity: 1 !important;
+}
+
+.profile-headline {
+  border-top: 1px solid #2C2C2C !important;
+}
+
+.dropdown-menu li:not(:last-child) {
+  border-bottom: 1px solid #7C7C7C !important;
 }
 }

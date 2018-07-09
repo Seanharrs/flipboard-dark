@@ -2,14 +2,14 @@
 /*
 * Name:    Flipboard Dark
 * Author:  Seanharrs
-* Version: v0.2
+* Version: v0.3
 */
 
 .navigation-bar .tabs .tab-item, .navigation-bar .search-container, .footer-bar, .nav-items, .page-gap,
 .grid-page, .front-door, .fill, .postbox, .toc-franchise, .loading, .loaded, .load-more, .content-loading,
 .notifications-list, .add-favorite-view-container .add-favorite-view, .search-passion .text-input,
-.search__panel, .search__zero-state, .search__more-results,
-a.topic-tag:hover, .topic-tag:hover, .selected a.topic-tag, .selected .topic-tag {
+.search__panel, .search__zero-state, .search__more-results, a.topic-tag:hover, .topic-tag:hover,
+.selected a.topic-tag, .selected .topic-tag, .feed-layout-scope, .newspaper-layout-scope .carousel-posts__item {
   background-color: #222 !important;
 }
 
@@ -24,7 +24,9 @@ a.topic-tag:hover, .topic-tag:hover, .selected a.topic-tag, .selected .topic-tag
 .notifications-list, .add-favorite-view-container .sub-message,
 .add-favorite-view-container .add-favorite-view .favorites .favorite--not-found, .favorite .name,
 .section-header-title .header-title, .section-metrics .metric, .follow-button, .show-more-icon .show-more-wrapper,
-.meatballs-menu__dropdown-menu, .search__zero-state-featured, .search__input, .search__results li {
+.meatballs-menu__dropdown-menu, .search__zero-state-featured, .search__input, .search__results li, .forgot-link,
+.newspaper-layout-scope, .newspaper-layout-scope h2, .post__title, .newspaper-layout-scope .group-magazine__create-description,
+.newspaper-layout-scope .influencer__description, .tile-layout-scope {
   color: #DDD !important;
 }
 
@@ -57,11 +59,11 @@ a.topic-tag:hover, .topic-tag:hover, .selected a.topic-tag, .selected .topic-tag
   color: #000 !important;
 }
 
-.button {
+.button:not(.facebook-connect) {
   border: 1px solid #AEAEAE !important;
 }
 
-.input-wrapper, a.topic-tag, .topic-tag {
+.search__result--topic .topic-tag {
   border: 1px solid #7C7C7C !important;
 }
 
@@ -91,9 +93,9 @@ a.topic-tag:hover, .topic-tag:hover, .selected a.topic-tag, .selected .topic-tag
   border-bottom: 1px solid #444 !important;
 }
 
-.text-input, .button, .input-wrapper, .form-error, div.gridline-x, div.gridline-y, .postbox,
+.text-input, .button:not(.facebook-connect), .input-wrapper, .form-error, div.gridline-x, div.gridline-y, .postbox,
 .notification-cell:hover, .show-more-menu, .show-more-menu .loaded, .search__zero-state-featured,
-.search__result--top li, a.topic-tag, .topic-tag {
+.search__result--top li, a.topic-tag, .topic-tag, .newspaper-layout-scope .newspaper-header hr {
   background-color: #2C2C2C !important;
 }
 
@@ -106,7 +108,7 @@ a.topic-tag:hover, .topic-tag:hover, .selected a.topic-tag, .selected .topic-tag
   border-bottom: 1px solid #666 !important;
 }
 
-.nav-items .selected, .nav-items span:hover, .favorites__favorite.active, .hint-panel {
+.nav-items .selected, .nav-items span:hover, .favorites__favorite.active, .favorites__favorite:active, .hint-panel {
   color: #EEE !important;
 }
 
@@ -145,5 +147,13 @@ a.topic-tag:hover, .topic-tag:hover, .selected a.topic-tag, .selected .topic-tag
 
 .search__zero-state-featured-link {
   border-bottom: 1px solid #555 !important;
+}
+
+.newspaper-layout-scope .newspaper-column:not(:last-child), .tile-item {
+  border-right: 1px solid #2C2C2C !important;
+}
+
+.tile-item-wrapper, .featured-magazines-wrapper, .newspaper-column {
+  border-bottom: 1px solid #2C2C2C !important;
 }
 }

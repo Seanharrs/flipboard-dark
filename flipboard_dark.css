@@ -9,7 +9,8 @@
 .grid-page, .front-door, .fill, .postbox, .toc-franchise, .loading, .loaded, .load-more, .content-loading,
 .notifications-list, .add-favorite-view-container .add-favorite-view, .search-passion .text-input,
 .search__panel, .search__zero-state, .search__more-results, a.topic-tag:hover, .topic-tag:hover,
-.selected a.topic-tag, .selected .topic-tag, .feed-layout-scope, .newspaper-layout-scope .carousel-posts__item {
+.selected a.topic-tag, .selected .topic-tag, .feed-layout-scope, .newspaper-layout-scope .carousel-posts__item,
+.layout-view {
   background-color: #222 !important;
 }
 
@@ -59,7 +60,7 @@
   color: #000 !important;
 }
 
-.button:not(.facebook-connect) {
+.button:not(.facebook-connect), .input-wrapper {
   border: 1px solid #AEAEAE !important;
 }
 
@@ -108,7 +109,7 @@
   border-bottom: 1px solid #666 !important;
 }
 
-.nav-items .selected, .nav-items span:hover, .favorites__favorite.active, .favorites__favorite:active, .hint-panel {
+.nav-items .selected, .nav-items a:hover, .favorites__favorite.active, .favorites__favorite:active, .favorites__favorite .hover, .hint-panel {
   color: #EEE !important;
 }
 
@@ -155,5 +156,13 @@
 
 .tile-item-wrapper, .featured-magazines-wrapper, .newspaper-column {
   border-bottom: 1px solid #2C2C2C !important;
+}
+
+.favorites__favorite:not(.active) a:not(.hover) {
+  opacity: 0.8 !important;
+}
+
+.favorites__favorite, .favorites__favorite a {
+  opacity: 1 !important;
 }
 }

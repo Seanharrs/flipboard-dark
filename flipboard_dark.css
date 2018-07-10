@@ -2,7 +2,7 @@
 /*
 * Name:    Flipboard Dark
 * Author:  Seanharrs
-* Version: v0.3
+* Version: v0.4
 */
 
 .navigation-bar .tabs .tab-item, .navigation-bar .search-container, .footer-bar, .nav-items, .page-gap,
@@ -11,7 +11,8 @@
 .search__panel, .search__zero-state, .search__more-results, a.topic-tag:hover, .topic-tag:hover,
 .selected a.topic-tag, .selected .topic-tag, .feed-layout-scope, .newspaper-layout-scope .carousel-posts__item,
 .layout-view, body, .invite-contributors-view, .create-magazine-view, .create-magazine,
-.content-share, .flip-extension-controller{
+.content-share, .flip-extension-controller, .edit-item-view, .editor-cover-options-view,
+.editor-cover-set-item-view {
   background-color: #222 !important;
 }
 
@@ -30,7 +31,7 @@
 .newspaper-layout-scope, .newspaper-layout-scope h2, .post__title, .newspaper-layout-scope .group-magazine__create-description,
 .newspaper-layout-scope .influencer__description, .tile-layout-scope, body, .magazine-tile .tile .inner-rect.revamped,
 .dropdown-menu .dropdown-item, .flip-header, .magazine-descriptive-copy, .button--secondary-inverse, .textarea,
-.share-flip__input {
+.share-flip__input, .editor-item-tile-footer, #item-caption-input, .stats-dashboard, .stats-dashboard .chart-null-state {
   color: #DDD !important;
 }
 
@@ -43,8 +44,8 @@
   border: 1px solid #2C2C2C !important;
 }
 
-.search-icon g, .show-more-icon:hover path, .notification-cell g, .follow-button .check-mark, .toc-content .view-as g>g,
-.edit-icon .icon-group-inner {
+.search-icon g, .show-more-icon:hover path, .notification-cell g, .follow-button .check-mark, .toc-content .view-as g > g,
+.edit-icon .icon-group-inner, .editor-remove-x-icon path, .editor-tabs:hover g {
   stroke: #F7F7F7 !important;
 }
 
@@ -52,7 +53,7 @@
   fill: #F7F7F7 !important;
 }
 
-.show-more path, .share-menu .icon-button {
+.show-more path, .share-menu .icon-button, .editor-tabs g {
   stroke: #888 !important;
 }
 
@@ -64,11 +65,13 @@
   color: #000 !important;
 }
 
-.button:not(.facebook-connect), .input-wrapper, .button--secondary-inverse, .text-input, .textarea, .share-flip__input {
+.button:not(.facebook-connect), .input-wrapper, .button--secondary-inverse, .text-input, .textarea, .share-flip__input,
+#item-caption-input {
   border: 1px solid #AEAEAE !important;
 }
 
-.search__result--topic .topic-tag, .magazine-tile .tile .inner-rect, .dropdown-men {
+.search__result--topic .topic-tag, .magazine-tile .tile .inner-rect, .dropdown-men, .editor-options .edit-text-icon,
+.editor-cover-options-view {
   border: 1px solid #7C7C7C !important;
 }
 
@@ -89,7 +92,7 @@
   border-top: 1px solid #444 !important;
 }
 
-.favorites-menu, .content-share .magazine-selection {
+.favorites-menu, .content-share .magazine-selection, .editor .secondary-column {
   border-right: 1px solid #444 !important;
 }
 
@@ -101,7 +104,7 @@
 .text-input, .button:not(.facebook-connect), .input-wrapper, .form-error, div.gridline-x, div.gridline-y, .postbox, .notification-cell:hover,
 .show-more-menu, .show-more-menu .loaded, .search__zero-state-featured, .search__result--top li, a.topic-tag, .topic-tag,
 .newspaper-layout-scope .newspaper-header hr, .magazine-tile .tile .inner-rect.revamped, .profile-header-content .text[contentEditable="true"],
-.create-magazine .button--secondary-inverse, .textarea, .share-flip__input {
+.create-magazine .button--secondary-inverse, .textarea, .share-flip__input, #item-caption-input, .item-description, .chart-container {
   background-color: #2C2C2C !important;
 }
 
@@ -109,8 +112,11 @@
   border-top: 1px solid #AEAEAE !important;
 }
 
-.nav-items {
+.nav-items, .editor-tabs .tab-title span {
   color: #888 !important;
+}
+
+.nav-items {
   border-bottom: 1px solid #666 !important;
 }
 
@@ -149,7 +155,7 @@
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5) !important;
 }
 
-.meatballs-menu__dropdown-menu li:hover, .dropdown-menu .dropdown-item:hover {
+.meatballs-menu__dropdown-menu li:hover, .dropdown-menu .dropdown-item:hover, .editor-options .edit-text-icon:hover, .edit-item-view a.primary {
   background-color: #444 !important;
 }
 
@@ -188,5 +194,22 @@
 
 .share-flip .ico-mglass::after {
   background-color: #999 !important;
+}
+
+.editor-item-tile::after {
+  border: 1px solid #444 !important;
+  background-color: #2C2C2C !important;
+}
+
+.stats-dashboard .cols > *:not(:last-child) {
+  border-right: 2px solid rgba(255,255,255,0.05) !important;
+}
+
+.stats-dashboard-top-list svg > g > * {
+  fill: #888 !important;
+}
+
+.editor-tabs:hover .tab-title span {
+  color: #F7F7F7 !important;
 }
 }

@@ -10,7 +10,8 @@
 .notifications-list, .add-favorite-view-container .add-favorite-view, .search-passion .text-input,
 .search__panel, .search__zero-state, .search__more-results, a.topic-tag:hover, .topic-tag:hover,
 .selected a.topic-tag, .selected .topic-tag, .feed-layout-scope, .newspaper-layout-scope .carousel-posts__item,
-.layout-view, body {
+.layout-view, body, .invite-contributors-view, .create-magazine-view, .create-magazine,
+.content-share, .flip-extension-controller{
   background-color: #222 !important;
 }
 
@@ -28,7 +29,8 @@
 .meatballs-menu__dropdown-menu, .search__zero-state-featured, .search__input, .search__results li, .forgot-link,
 .newspaper-layout-scope, .newspaper-layout-scope h2, .post__title, .newspaper-layout-scope .group-magazine__create-description,
 .newspaper-layout-scope .influencer__description, .tile-layout-scope, body, .magazine-tile .tile .inner-rect.revamped,
-.dropdown-menu .dropdown-item {
+.dropdown-menu .dropdown-item, .flip-header, .magazine-descriptive-copy, .button--secondary-inverse, .textarea,
+.share-flip__input {
   color: #DDD !important;
 }
 
@@ -62,11 +64,11 @@
   color: #000 !important;
 }
 
-.button:not(.facebook-connect), .input-wrapper {
+.button:not(.facebook-connect), .input-wrapper, .button--secondary-inverse, .text-input, .textarea, .share-flip__input {
   border: 1px solid #AEAEAE !important;
 }
 
-.search__result--topic .topic-tag, .magazine-tile .tile .inner-rect, .dropdown-menu {
+.search__result--topic .topic-tag, .magazine-tile .tile .inner-rect, .dropdown-men {
   border: 1px solid #7C7C7C !important;
 }
 
@@ -87,7 +89,7 @@
   border-top: 1px solid #444 !important;
 }
 
-.favorites-menu {
+.favorites-menu, .content-share .magazine-selection {
   border-right: 1px solid #444 !important;
 }
 
@@ -98,7 +100,8 @@
 
 .text-input, .button:not(.facebook-connect), .input-wrapper, .form-error, div.gridline-x, div.gridline-y, .postbox, .notification-cell:hover,
 .show-more-menu, .show-more-menu .loaded, .search__zero-state-featured, .search__result--top li, a.topic-tag, .topic-tag,
-.newspaper-layout-scope .newspaper-header hr, .magazine-tile .tile .inner-rect.revamped, .profile-header-content .text[contentEditable="true"] {
+.newspaper-layout-scope .newspaper-header hr, .magazine-tile .tile .inner-rect.revamped, .profile-header-content .text[contentEditable="true"],
+.create-magazine .button--secondary-inverse, .textarea, .share-flip__input {
   background-color: #2C2C2C !important;
 }
 
@@ -129,7 +132,8 @@
   border: 1px solid  rgba(255, 255, 255, 0.7) !important;
 }
 
-.follow-button.hover, .search__results li.selected:not(.search__result-topic), .dropdown-menu .dropdown-item {
+.follow-button.hover, .search__results li.selected:not(.search__result-topic), .dropdown-menu .dropdown-item,
+.share-flip .magazine-selection__magazine.selected, .share-flip .ico-mglass {
   background-color: #333 !important;
 }
 
@@ -176,5 +180,13 @@
 
 .dropdown-menu li:not(:last-child) {
   border-bottom: 1px solid #7C7C7C !important;
+}
+
+.share-flip .ico-mglass {
+  border: 2px solid #999 !important;
+}
+
+.share-flip .ico-mglass::after {
+  background-color: #999 !important;
 }
 }

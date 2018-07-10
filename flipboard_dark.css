@@ -10,9 +10,9 @@
 .notifications-list, .add-favorite-view-container .add-favorite-view, .search-passion .text-input,
 .search__panel, .search__zero-state, .search__more-results, a.topic-tag:hover, .topic-tag:hover,
 .selected a.topic-tag, .selected .topic-tag, .feed-layout-scope, .newspaper-layout-scope .carousel-posts__item,
-.layout-view, body, .invite-contributors-view, .create-magazine-view, .create-magazine,
-.content-share, .flip-extension-controller, .edit-item-view, .editor-cover-options-view,
-.editor-cover-set-item-view, .getapp-view, .share-article-view, #friends-search-bar {
+.layout-view, body, .invite-contributors-view, .create-magazine-view, .create-magazine, .content-share,
+.flip-extension-controller, .edit-item-view, .editor-cover-options-view, .editor-cover-set-item-view,
+.getapp-view, .share-article-view, #friends-search-bar, .magazine-cover-footer, .topic-tag.compact {
   background-color: #222 !important;
 }
 
@@ -33,7 +33,7 @@
 .dropdown-menu .dropdown-item, .flip-header, .magazine-descriptive-copy, .button--secondary-inverse, .textarea,
 .share-flip__input, .editor-item-tile-footer, #item-caption-input, .stats-dashboard, .getapp-view,
 .getapp-view .getapp-email-prompt .or, #get-email, .share-article-view .title, .search-for-friends .label,
-#friends-search-bar, .share-article-view .share-url-input {
+#friends-search-bar, .share-article-view .share-url-input, .magazine-cover-footer {
   color: #DDD !important;
 }
 
@@ -51,7 +51,8 @@
   stroke: #F7F7F7 !important;
 }
 
-.compose-icon polygon+polygon, .tab-item--notifications path, .social-actions__list-item:hover path, .social-actions__list-item:hover svg {
+.compose-icon polygon+polygon, .tab-item--notifications path, .social-actions__list-item:hover path, .social-actions__list-item:hover svg,
+.magazine-cover-footer .lock-button > g, .magazine-cover-footer .arrow-button > g > g {
   fill: #F7F7F7 !important;
 }
 
@@ -73,7 +74,7 @@
 }
 
 .search__result--topic .topic-tag, .magazine-tile .tile .inner-rect, .dropdown-men, .editor-options .edit-text-icon,
-.editor-cover-options-view {
+.editor-cover-options-view, .magazine-actions .edit-text-icon {
   border: 1px solid #7C7C7C !important;
 }
 
@@ -107,7 +108,7 @@
 .show-more-menu, .show-more-menu .loaded, .search__zero-state-featured, .search__result--top li, a.topic-tag, .topic-tag,
 .newspaper-layout-scope .newspaper-header hr, .magazine-tile .tile .inner-rect.revamped, .profile-header-content .text[contentEditable="true"],
 .create-magazine .button--secondary-inverse, .textarea, .share-flip__input, #item-caption-input, .item-description, .chart-container, #get-email,
-.share-article-view .share-url-input, .share-flip .button--secondary {
+.share-article-view .share-url-input, .share-flip .button--secondary, .magazine-actions .edit-text-icon {
   background-color: #2C2C2C !important;
 }
 

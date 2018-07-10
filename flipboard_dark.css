@@ -12,7 +12,7 @@
 .selected a.topic-tag, .selected .topic-tag, .feed-layout-scope, .newspaper-layout-scope .carousel-posts__item,
 .layout-view, body, .invite-contributors-view, .create-magazine-view, .create-magazine,
 .content-share, .flip-extension-controller, .edit-item-view, .editor-cover-options-view,
-.editor-cover-set-item-view {
+.editor-cover-set-item-view, .getapp-view {
   background-color: #222 !important;
 }
 
@@ -31,11 +31,12 @@
 .newspaper-layout-scope, .newspaper-layout-scope h2, .post__title, .newspaper-layout-scope .group-magazine__create-description,
 .newspaper-layout-scope .influencer__description, .tile-layout-scope, body, .magazine-tile .tile .inner-rect.revamped,
 .dropdown-menu .dropdown-item, .flip-header, .magazine-descriptive-copy, .button--secondary-inverse, .textarea,
-.share-flip__input, .editor-item-tile-footer, #item-caption-input, .stats-dashboard {
+.share-flip__input, .editor-item-tile-footer, #item-caption-input, .stats-dashboard, .getapp-view,
+.getapp-view .getapp-email-prompt .or, #get-email {
   color: #DDD !important;
 }
 
-.hint-panel {
+.hint-panel, .getapp-view .send-button:hover {
   background-color: #D22 !important;
 }
 
@@ -66,7 +67,7 @@
 }
 
 .button:not(.facebook-connect), .input-wrapper, .button--secondary-inverse, .create-magazine__content-wrapper .text-input, .textarea, .share-flip__input,
-#item-caption-input {
+#item-caption-input, #get-email {
   border: 1px solid #AEAEAE !important;
 }
 
@@ -104,7 +105,7 @@
 .text-input, .button:not(.facebook-connect), .input-wrapper, .form-error, div.gridline-x, div.gridline-y, .postbox, .notification-cell:hover,
 .show-more-menu, .show-more-menu .loaded, .search__zero-state-featured, .search__result--top li, a.topic-tag, .topic-tag,
 .newspaper-layout-scope .newspaper-header hr, .magazine-tile .tile .inner-rect.revamped, .profile-header-content .text[contentEditable="true"],
-.create-magazine .button--secondary-inverse, .textarea, .share-flip__input, #item-caption-input, .item-description, .chart-container {
+.create-magazine .button--secondary-inverse, .textarea, .share-flip__input, #item-caption-input, .item-description, .chart-container, #get-email {
   background-color: #2C2C2C !important;
 }
 

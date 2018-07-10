@@ -157,7 +157,8 @@
   border-right: 1px solid #2C2C2C !important;
 }
 
-.tile-item-wrapper, .featured-magazines-wrapper, .newspaper-column {
+.tile-item-wrapper, .featured-magazines-wrapper, .newspaper-column, .newspaper-column > section:not(:last-child),
+.newspaper-column .newspaper-section:not(:last-child), .group-magazine {
   border-bottom: 1px solid #2C2C2C !important;
 }
 

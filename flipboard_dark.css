@@ -31,7 +31,7 @@
 .newspaper-layout-scope, .newspaper-layout-scope h2, .post__title, .newspaper-layout-scope .group-magazine__create-description,
 .newspaper-layout-scope .influencer__description, .tile-layout-scope, body, .magazine-tile .tile .inner-rect.revamped,
 .dropdown-menu .dropdown-item, .flip-header, .magazine-descriptive-copy, .button--secondary-inverse, .textarea,
-.share-flip__input, .editor-item-tile-footer, #item-caption-input, .stats-dashboard, .stats-dashboard .chart-null-state {
+.share-flip__input, .editor-item-tile-footer, #item-caption-input, .stats-dashboard {
   color: #DDD !important;
 }
 
@@ -65,7 +65,7 @@
   color: #000 !important;
 }
 
-.button:not(.facebook-connect), .input-wrapper, .button--secondary-inverse, .text-input, .textarea, .share-flip__input,
+.button:not(.facebook-connect), .input-wrapper, .button--secondary-inverse, .create-magazine__content-wrapper .text-input, .textarea, .share-flip__input,
 #item-caption-input {
   border: 1px solid #AEAEAE !important;
 }

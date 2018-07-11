@@ -1,4 +1,4 @@
-@-moz-document domain("flipboard.com") {
+@-moz-document regexp("https?://(www\\.)?flipboard\\.com.*") {
 /*
 * Name:    Flipboard Dark
 * Author:  Seanharrs
@@ -214,5 +214,76 @@
 
 .editor-tabs:hover .tab-title span {
   color: #F7F7F7 !important;
+}
+}
+
+@-moz-document domain("about.flipboard.com") {
+body, #footer-wrapper {
+  background-color: #222 !important;
+}
+
+body, .main, .cssgradients .keyline-left a, .language-selector .selector a {
+  color: #DDD !important;
+}
+
+.language-selector:hover .selector > a, .cssgradients .keyline-left a:hover {
+  color: #D22 !important;
+}
+
+.footer-global {
+  border-top: 16px solid #444 !important;
+}
+
+.cssgradients .keyline-left a {
+  background-image: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0) 2px,#DDD 2px,#DDD 3px,rgba(0,0,0,0) 3px) !important;
+}
+
+.cssgradients .keyline-left a:hover {
+  background-image: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0) 2px,#D22 2px,#D22 3px,rgba(0,0,0,0) 3px) !important;
+}
+
+.footer-global .keyline-left {
+  border-left: 1px solid #444 !important;
+}
+
+.language-selector .selector > a {
+  background-image: none !important;
+}
+
+.language-selector .selector > a, .language-selector .selector ul {
+  border: 1px solid #7C7C7C !important;
+}
+
+.language-selector .selector::after {
+  border-color: #DDD transparent !important;
+}
+
+.language-selector:hover .selector::after {
+  border-color: #7C7C7C transparent !important;
+}
+
+.legal-menu a {
+  color: #222 !important;
+}
+
+.legal-menu a:hover {
+  color: #2DD !important;
+  background-image: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0) 2px,#2DD 2px,#2DD 3px,rgba(0,0,0,0) 3px) !important;
+}
+
+.legal-menu li {
+  filter: invert(100%) !important;
+}
+
+.language-selector .selector ul {
+  background-color: #333 !important;
+}
+
+.language-selector .selector ul li:hover a {
+  color: #D22 !important;
+}
+
+.home-main-subcopy img {
+  filter: invert(87%) !important; /* approx #DDD */
 }
 }

@@ -229,14 +229,14 @@ body, #footer-wrapper, .site-header, .site-header.fixed .main-navigation, .site-
 }
 
 body, .main, .cssgradients .keyline-left #menu-footer-main a, .cssgradients .keyline-left #menu-footer-2nd-column a,
-.language-selector .selector a, .main-navigation a, .cssgradients .content-padded a, .cssgradients .post-title > a,
+.language-selector a, .main-navigation a, .cssgradients .content-padded a, .cssgradients .post-title > a,
 .cssgradients .post-author > a, .cssgradients .three-columns-home .news-item > p > a, .cssgradients .widget p:last-child a,
 .three-columns-home p > a, .cssgradients .publisher-slides .text-col a {
   color: #DDD !important;
 }
 
 .cssgradients .keyline-left #menu-footer-main a:hover, .cssgradients .keyline-left #menu-footer-2nd-column a:hover,
-.language-selector:hover .selector > a, .main-navigation a:focus, .main-navigation a:hover, .cssgradients .content-padded a:hover,
+.language-selector a:hover, .main-navigation a:focus, .main-navigation a:hover, .cssgradients .content-padded a:hover,
 .site-navigation .current-menu-item > a, .cssgradients .post-title > a:hover, .cssgradients .post-author > a:hover,
 .cssgradients .three-columns-home .news-item > p > a:hover, .cssgradients .widget p:last-child a:hover,
 .site-main .three-columns-home .social-menu a:hover, .three-columns-home p > a:hover, .cssgradients .publisher-slides .text-col a:not(.btn):hover {

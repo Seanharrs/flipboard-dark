@@ -2,7 +2,7 @@
 /*
 * Name:    Flipboard Dark
 * Author:  Seanharrs
-* Version: v0.4
+* Version: v0.5
 */
 
 .navigation-bar .tabs .tab-item, .navigation-bar .search-container, .footer-bar, .nav-items, .page-gap,
@@ -218,15 +218,22 @@
 }
 
 @-moz-document domain("about.flipboard.com") {
-body, #footer-wrapper {
+/*
+* Name:    Flipboard Dark
+* Author:  Seanharrs
+* Version: v0.5
+*/
+
+body, #footer-wrapper, .site-header, .site-header.fixed .main-navigation, .site-main-wrapper {
   background-color: #222 !important;
 }
 
-body, .main, .cssgradients .keyline-left a, .language-selector .selector a {
+body, .main, .cssgradients .keyline-left a, .language-selector .selector a, .main-navigation a, .cssgradients .content-padded a {
   color: #DDD !important;
 }
 
-.language-selector:hover .selector > a, .cssgradients .keyline-left a:hover {
+.language-selector:hover .selector > a, .cssgradients .keyline-left a:hover, .main-navigation a:focus, .main-navigation a:hover,
+.cssgradients .content-padded a:hover {
   color: #D22 !important;
 }
 
@@ -234,15 +241,23 @@ body, .main, .cssgradients .keyline-left a, .language-selector .selector a {
   border-top: 16px solid #444 !important;
 }
 
-.cssgradients .keyline-left a {
+hr.fat {
+  border-bottom: 19px solid #444 !important;
+}
+
+.footer-sub hr.fat {
+  border-bottom-width: 30px !important;
+}
+
+.cssgradients .keyline-left a, .cssgradients .content-padded a {
   background-image: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0) 2px,#DDD 2px,#DDD 3px,rgba(0,0,0,0) 3px) !important;
 }
 
-.cssgradients .keyline-left a:hover {
+.cssgradients .keyline-left a:hover, .cssgradients .content-padded a:hover {
   background-image: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0) 2px,#D22 2px,#D22 3px,rgba(0,0,0,0) 3px) !important;
 }
 
-.footer-global .keyline-left {
+.footer-global .keyline-left, .footer-sub .keyline-left {
   border-left: 1px solid #444 !important;
 }
 
@@ -266,7 +281,7 @@ body, .main, .cssgradients .keyline-left a, .language-selector .selector a {
   color: #222 !important;
 }
 
-.legal-menu a:hover {
+.legal-menu a:hover { /* inverted */
   color: #2DD !important;
   background-image: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0) 2px,#2DD 2px,#2DD 3px,rgba(0,0,0,0) 3px) !important;
 }

@@ -228,12 +228,18 @@ body, #footer-wrapper, .site-header, .site-header.fixed .main-navigation, .site-
   background-color: #222 !important;
 }
 
-body, .main, .cssgradients .keyline-left a, .language-selector .selector a, .main-navigation a, .cssgradients .content-padded a {
+body, .main, .cssgradients .keyline-left #menu-footer-main a, .cssgradients .keyline-left #menu-footer-2nd-column a,
+.language-selector .selector a, .main-navigation a, .cssgradients .content-padded a, .cssgradients .post-title > a,
+.cssgradients .post-author > a, .cssgradients .three-columns-home .news-item > p > a, .cssgradients .widget p:last-child a,
+.three-columns-home p > a {
   color: #DDD !important;
 }
 
-.language-selector:hover .selector > a, .cssgradients .keyline-left a:hover, .main-navigation a:focus, .main-navigation a:hover,
-.cssgradients .content-padded a:hover {
+.cssgradients .keyline-left #menu-footer-main a:hover, .cssgradients .keyline-left #menu-footer-2nd-column a:hover,
+.language-selector:hover .selector > a, .main-navigation a:focus, .main-navigation a:hover, .cssgradients .content-padded a:hover,
+.site-navigation .current-menu-item > a, .cssgradients .post-title > a:hover, .cssgradients .post-author > a:hover,
+.cssgradients .three-columns-home .news-item > p > a:hover, .cssgradients .widget p:last-child a:hover,
+.site-main .three-columns-home .social-menu a:hover, .three-columns-home p > a:hover {
   color: #D22 !important;
 }
 
@@ -245,15 +251,27 @@ hr.fat {
   border-bottom: 19px solid #444 !important;
 }
 
+.site-main .site-sidebar .widget {
+  border-top: 1px solid #2C2C2C !important;
+}
+
+.three-columns-home h2.headline, .site-main .site-sidebar .widget.widget_nav_menu {
+  border-top: 10px solid #444 !important;
+}
+
 .footer-sub hr.fat {
   border-bottom-width: 30px !important;
 }
 
-.cssgradients .keyline-left a, .cssgradients .content-padded a {
+.cssgradients .keyline-left #menu-footer-main a, .cssgradients .keyline-left #menu-footer-2nd-column a, .cssgradients .keyline-left .footer a,
+.cssgradients .content-padded a, .cssgradients .three-columns-home .news-item > p > a,
+.cssgradients .widget p:last-child a, .three-columns-home p > a {
   background-image: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0) 2px,#DDD 2px,#DDD 3px,rgba(0,0,0,0) 3px) !important;
 }
 
-.cssgradients .keyline-left a:hover, .cssgradients .content-padded a:hover {
+.cssgradients .keyline-left #menu-footer-main a:hover, .cssgradients .keyline-left #menu-footer-2nd-column a:hover,
+.cssgradients .content-padded a:hover, .cssgradients .three-columns-home .news-item > p > a:hover, .cssgradients .widget p:last-child a:hover,
+.three-columns-home p > a:hover {
   background-image: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0) 2px,#D22 2px,#D22 3px,rgba(0,0,0,0) 3px) !important;
 }
 
@@ -281,8 +299,8 @@ hr.fat {
   color: #222 !important;
 }
 
-.legal-menu a:hover { /* inverted */
-  color: #2DD !important;
+.legal-menu a:hover {
+  color: #2DD !important; /* inverted */
   background-image: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0) 2px,#2DD 2px,#2DD 3px,rgba(0,0,0,0) 3px) !important;
 }
 
@@ -300,5 +318,13 @@ hr.fat {
 
 .home-main-subcopy img {
   filter: invert(87%) !important; /* approx #DDD */
+}
+
+.main-navigation {
+  border-bottom: 3px solid #D22 !important;
+}
+
+.news-item.news-rule.fpb-job {
+  box-shadow: inset 0 -1px 0 0 #2C2C2C, inset 0 -2px 0 0 #2C2C2C !important;
 }
 }

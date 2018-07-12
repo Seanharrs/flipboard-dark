@@ -233,7 +233,7 @@ body, #footer-wrapper, .site-header, .site-header.fixed .main-navigation, .site-
 body, .main, .search-input, .black-box-title, .cssgradients .keyline-left #menu-footer-main a, .cssgradients .keyline-left #menu-footer-2nd-column a,
 .cssgradients .keyline-left .bottom-link a, .language-selector a, .main-navigation a, .cssgradients .content-padded a, .cssgradients .post-title > a, .cssgradients .post-author > a,
 .cssgradients .three-columns-home .news-item > p > a, .cssgradients .widget p:last-child a, .three-columns-home p > a, .cssgradients .publisher-slides .text-col a,
-.advertisers-stats.resources .stat a, .cssgradients .load-more-wrapper .load-more {
+.advertisers-stats.resources .stat a, .cssgradients .load-more-wrapper .load-more, .tutorial-heading .section-heading, .cssgradients .tutorials-sidebar .textwidget a {
   color: #DDD !important;
 }
 
@@ -241,7 +241,8 @@ body, .main, .search-input, .black-box-title, .cssgradients .keyline-left #menu-
 .cssgradients .keyline-left .bottom-link a:hover, .language-selector a:hover, .main-navigation a:focus, .main-navigation a:hover, .cssgradients .content-padded a:hover,
 .site-navigation .current-menu-item > a, .cssgradients .post-title > a:hover, .cssgradients .post-author > a:hover, .cssgradients .three-columns-home .news-item > p > a:hover,
 .cssgradients .widget p:last-child a:hover, .site-main .three-columns-home .social-menu a:hover, .three-columns-home p > a:hover,
-.cssgradients .publisher-slides .text-col a:not(.btn):hover, .advertisers-stats.resources .stat a:hover, .cssgradients .load-more-wrapper .load-more:hover {
+.cssgradients .publisher-slides .text-col a:not(.btn):hover, .advertisers-stats.resources .stat a:hover, .cssgradients .load-more-wrapper .load-more:hover,
+.cssgradients .tutorials-sidebar .textwidget a:hover {
   color: #D22 !important;
 }
 
@@ -266,14 +267,15 @@ hr.fat {
 }
 
 .cssgradients .keyline-left #menu-footer-main a, .cssgradients .keyline-left #menu-footer-2nd-column a, .cssgradients .keyline-left .bottom-link a,
-.cssgradients .content-padded a, .cssgradients .three-columns-home .news-item > p > a,
-.cssgradients .widget p:last-child a, .three-columns-home p > a, .cssgradients .publisher-slides .text-col a:not(.btn) {
+.cssgradients .content-padded a, .cssgradients .three-columns-home .news-item > p > a, .cssgradients .widget p:last-child a, .three-columns-home p > a,
+.cssgradients .publisher-slides .text-col a:not(.btn), .cssgradients .tutorials-sidebar .textwidget a {
   background-image: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0) 2px,#DDD 2px,#DDD 3px,rgba(0,0,0,0) 3px) !important;
 }
 
 .cssgradients .keyline-left #menu-footer-main a:hover, .cssgradients .keyline-left #menu-footer-2nd-column a:hover,
 .cssgradients .keyline-left .bottom-link a:hover, .cssgradients .content-padded a:hover, .cssgradients .three-columns-home .news-item > p > a:hover,
-.cssgradients .widget p:last-child a:hover, .three-columns-home p > a:hover, .cssgradients .publisher-slides .text-col a:not(.btn):hover {
+.cssgradients .widget p:last-child a:hover, .three-columns-home p > a:hover, .cssgradients .publisher-slides .text-col a:not(.btn):hover,
+.cssgradients .tutorials-sidebar .textwidget a:hover {
   background-image: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0) 2px,#D22 2px,#D22 3px,rgba(0,0,0,0) 3px) !important;
 }
 
@@ -354,5 +356,9 @@ hr.fat {
 
 .load-more-wrapper .spinner {
   border-color: transparent #DDD #DDD;
+}
+
+.tutorial-block hr.line {
+  border-bottom: 1px solid #333 !important;
 }
 }

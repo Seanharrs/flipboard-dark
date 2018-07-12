@@ -234,7 +234,7 @@ body, .main, .search-input, .black-box-title, .cssgradients .keyline-left #menu-
 .cssgradients .keyline-left .bottom-link a, .language-selector a, .main-navigation a, .cssgradients .content-padded a, .cssgradients .post-title > a, .cssgradients .post-author > a,
 .cssgradients .three-columns-home .news-item > p > a, .cssgradients .widget p:last-child a, .three-columns-home p > a, .cssgradients .publisher-slides .text-col a,
 .advertisers-stats.resources .stat a, .cssgradients .load-more-wrapper .load-more, .tutorial-heading .section-heading, .cssgradients .tutorials-sidebar .textwidget a,
-.cssgradients .question a {
+.cssgradients .question a, .cssgradients .content-padded span[style] {
   color: #DDD !important;
 }
 
@@ -243,7 +243,7 @@ body, .main, .search-input, .black-box-title, .cssgradients .keyline-left #menu-
 .site-navigation .current-menu-item > a, .cssgradients .post-title > a:hover, .cssgradients .post-author > a:hover, .cssgradients .three-columns-home .news-item > p > a:hover,
 .cssgradients .widget p:last-child a:hover, .site-main .three-columns-home .social-menu a:hover, .three-columns-home p > a:hover,
 .cssgradients .publisher-slides .text-col a:not(.btn):hover, .advertisers-stats.resources .stat a:hover, .cssgradients .load-more-wrapper .load-more:hover,
-.cssgradients .tutorials-sidebar .textwidget a:hover, .question-column .show-all, .cssgradients .question a:hover {
+.cssgradients .tutorials-sidebar .textwidget a:hover, .question-column .show-all, .cssgradients .question a:hover, .cssgradients .content-padded a span[style]:hover {
   color: #D22 !important;
 }
 
@@ -367,7 +367,7 @@ hr.fat {
   border-color: transparent #DDD #DDD;
 }
 
-.tutorial-block hr.line {
+.tutorial-block hr.line, #red-bolt + hr {
   border-bottom: 1px solid #333 !important;
 }
 }

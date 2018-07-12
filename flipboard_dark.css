@@ -33,7 +33,8 @@
 .dropdown-menu .dropdown-item, .flip-header, .magazine-descriptive-copy, .button--secondary-inverse, .textarea,
 .share-flip__input, .editor-item-tile-footer, #item-caption-input, .stats-dashboard, .getapp-view,
 .getapp-view .getapp-email-prompt .or, #get-email, .share-article-view .title, .search-for-friends .label,
-#friends-search-bar, .share-article-view .share-url-input, .magazine-cover-footer {
+#friends-search-bar, .share-article-view .share-url-input, .magazine-cover-footer,
+.stats-dashboard .top-list-title.top-list-tooltip:hover div[data-tooltip]::after, .stats-dashboard .chart-title.chart-tooltip:hover div[data-tooltip]::after {
   color: #DDD !important;
 }
 
@@ -60,7 +61,7 @@
   stroke: #888 !important;
 }
 
-.close-button g {
+.close-button g, .stats-dashboard .chart-container svg {
   fill: #DDD !important;
 }
 
@@ -158,7 +159,8 @@
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5) !important;
 }
 
-.meatballs-menu__dropdown-menu li:hover, .dropdown-menu .dropdown-item:hover, .editor-options .edit-text-icon:hover, .edit-item-view a.primary {
+.meatballs-menu__dropdown-menu li:hover, .dropdown-menu .dropdown-item:hover, .editor-options .edit-text-icon:hover, .edit-item-view a.primary,
+.stats-dashboard .top-list-title.top-list-tooltip:hover div[data-tooltip]::after, .stats-dashboard .chart-title.chart-tooltip:hover div[data-tooltip]::after {
   background-color: #444 !important;
 }
 

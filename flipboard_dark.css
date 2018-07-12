@@ -69,7 +69,7 @@
 }
 
 .button:not(.facebook-connect), .input-wrapper, .button--secondary-inverse, .create-magazine__content-wrapper .text-input, .textarea, .share-flip__input,
-#item-caption-input, #get-email, .share-article-view .search-for-friends, .share-flip .button--secondary {
+#item-caption-input, #get-email, .share-article-view .search-for-friends, .share-flip .button--secondary, .text-input {
   border: 1px solid #AEAEAE !important;
 }
 
@@ -228,10 +228,10 @@ body, #footer-wrapper, .site-header, .site-header.fixed .main-navigation, .site-
   background-color: #222 !important;
 }
 
-body, .main, .cssgradients .keyline-left #menu-footer-main a, .cssgradients .keyline-left #menu-footer-2nd-column a, .cssgradients .keyline-left .bottom-link a,
-.language-selector a, .main-navigation a, .cssgradients .content-padded a, .cssgradients .post-title > a, .cssgradients .post-author > a,
+body, .main, .search-input, .black-box-title, .cssgradients .keyline-left #menu-footer-main a, .cssgradients .keyline-left #menu-footer-2nd-column a,
+.cssgradients .keyline-left .bottom-link a, .language-selector a, .main-navigation a, .cssgradients .content-padded a, .cssgradients .post-title > a, .cssgradients .post-author > a,
 .cssgradients .three-columns-home .news-item > p > a, .cssgradients .widget p:last-child a, .three-columns-home p > a, .cssgradients .publisher-slides .text-col a,
-.advertisers-stats.resources .stat a {
+.advertisers-stats.resources .stat a, .cssgradients .load-more-wrapper .load-more {
   color: #DDD !important;
 }
 
@@ -239,7 +239,7 @@ body, .main, .cssgradients .keyline-left #menu-footer-main a, .cssgradients .key
 .cssgradients .keyline-left .bottom-link a:hover, .language-selector a:hover, .main-navigation a:focus, .main-navigation a:hover, .cssgradients .content-padded a:hover,
 .site-navigation .current-menu-item > a, .cssgradients .post-title > a:hover, .cssgradients .post-author > a:hover, .cssgradients .three-columns-home .news-item > p > a:hover,
 .cssgradients .widget p:last-child a:hover, .site-main .three-columns-home .social-menu a:hover, .three-columns-home p > a:hover,
-.cssgradients .publisher-slides .text-col a:not(.btn):hover, .advertisers-stats.resources .stat a:hover {
+.cssgradients .publisher-slides .text-col a:not(.btn):hover, .advertisers-stats.resources .stat a:hover, .cssgradients .load-more-wrapper .load-more:hover {
   color: #D22 !important;
 }
 
@@ -329,7 +329,7 @@ hr.fat {
   border-bottom: 1px solid #AEAEAE !important;
 }
 
-.cssgradients .publisher-slides .text-col .btn, .cssgradients .page-header .btn {
+.cssgradients .publisher-slides .text-col .btn, .cssgradients .page-header .btn, .search-input {
   background-color: #2C2C2C !important;
   border: 1px solid #AEAEAE !important;
 }
@@ -340,5 +340,17 @@ hr.fat {
 
 .advertisers-stats.resources {
   border-top: 1px solid #AEAEAE !important;
+}
+
+.three-columns-home .widget.widget_search {
+  border: none !important;
+}
+
+.black-box-title {
+  background-color: #444 !important;
+}
+
+.load-more-wrapper .spinner {
+  border-color: transparent #DDD #DDD;
 }
 }

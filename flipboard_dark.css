@@ -228,18 +228,18 @@ body, #footer-wrapper, .site-header, .site-header.fixed .main-navigation, .site-
   background-color: #222 !important;
 }
 
-body, .main, .cssgradients .keyline-left #menu-footer-main a, .cssgradients .keyline-left #menu-footer-2nd-column a,
-.cssgradients .keyline-left .bottom-link a, .language-selector a, .main-navigation a, .cssgradients .content-padded a,
-.cssgradients .post-title > a, .cssgradients .post-author > a, .cssgradients .three-columns-home .news-item > p > a,
-.cssgradients .widget p:last-child a, .three-columns-home p > a, .cssgradients .publisher-slides .text-col a {
+body, .main, .cssgradients .keyline-left #menu-footer-main a, .cssgradients .keyline-left #menu-footer-2nd-column a, .cssgradients .keyline-left .bottom-link a,
+.language-selector a, .main-navigation a, .cssgradients .content-padded a, .cssgradients .post-title > a, .cssgradients .post-author > a,
+.cssgradients .three-columns-home .news-item > p > a, .cssgradients .widget p:last-child a, .three-columns-home p > a, .cssgradients .publisher-slides .text-col a,
+.advertisers-stats.resources .stat a {
   color: #DDD !important;
 }
 
-.cssgradients .keyline-left #menu-footer-main a:hover, .cssgradients .keyline-left #menu-footer-2nd-column a:hover,
-.cssgradients .keyline-left .bottom-link a:hover, .language-selector a:hover, .main-navigation a:focus, .main-navigation a:hover,
-.cssgradients .content-padded a:hover, .site-navigation .current-menu-item > a, .cssgradients .post-title > a:hover,
-.cssgradients .post-author > a:hover, .cssgradients .three-columns-home .news-item > p > a:hover, .cssgradients .widget p:last-child a:hover,
-.site-main .three-columns-home .social-menu a:hover, .three-columns-home p > a:hover, .cssgradients .publisher-slides .text-col a:not(.btn):hover {
+.language-selector .selector ul li:hover a, .cssgradients .keyline-left #menu-footer-main a:hover, .cssgradients .keyline-left #menu-footer-2nd-column a:hover,
+.cssgradients .keyline-left .bottom-link a:hover, .language-selector a:hover, .main-navigation a:focus, .main-navigation a:hover, .cssgradients .content-padded a:hover,
+.site-navigation .current-menu-item > a, .cssgradients .post-title > a:hover, .cssgradients .post-author > a:hover, .cssgradients .three-columns-home .news-item > p > a:hover,
+.cssgradients .widget p:last-child a:hover, .site-main .three-columns-home .social-menu a:hover, .three-columns-home p > a:hover,
+.cssgradients .publisher-slides .text-col a:not(.btn):hover, .advertisers-stats.resources .stat a:hover {
   color: #D22 !important;
 }
 
@@ -312,11 +312,7 @@ hr.fat {
   background-color: #333 !important;
 }
 
-.language-selector .selector ul li:hover a {
-  color: #D22 !important;
-}
-
-.home-main-subcopy img {
+.home-main-subcopy img, .logo-module img {
   filter: invert(87%) !important; /* approx #DDD */
 }
 
@@ -329,12 +325,20 @@ hr.fat {
   border-bottom: 1px solid #333 !important;
 }
 
-.publisher-slides .slide-one [class*="col-"] {
-  border-bottom: 1px solid #999 !important;
+.publisher-slides .slide-one [class*="col-"], .advertisers-largeTitle {
+  border-bottom: 1px solid #AEAEAE !important;
 }
 
-.cssgradients .publisher-slides .text-col .btn {
+.cssgradients .publisher-slides .text-col .btn, .cssgradients .page-header .btn {
   background-color: #2C2C2C !important;
   border: 1px solid #AEAEAE !important;
+}
+
+.advertisers-largeTitle h2 .strike::after {
+  background-color: #D22 !important;
+}
+
+.advertisers-stats.resources {
+  border-top: 1px solid #AEAEAE !important;
 }
 }

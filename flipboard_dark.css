@@ -70,7 +70,7 @@
 }
 
 .button:not(.facebook-connect), .input-wrapper, .button--secondary-inverse, .create-magazine__content-wrapper .text-input, .textarea, .share-flip__input,
-#item-caption-input, #get-email, .share-article-view .search-for-friends, .share-flip .button--secondary, .text-input {
+#item-caption-input, #get-email, .share-article-view .search-for-friends, .share-flip .button--secondary {
   border: 1px solid #AEAEAE !important;
 }
 

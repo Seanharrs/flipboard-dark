@@ -259,7 +259,7 @@ hr.fat {
 }
 
 .site-main .site-sidebar .widget {
-  border-top: 1px solid #333 !important;
+    border-top: 1px solid #444 !important;
 }
 
 .three-columns-home h2.headline, .site-main .site-sidebar .widget.widget_nav_menu {
@@ -339,7 +339,7 @@ hr.fat {
 
 .news-item.news-rule {
   box-shadow: none !important;
-  border-bottom: 1px solid #333 !important;
+  border-bottom: 1px solid #444 !important;
 }
 
 .publisher-slides .slide-one [class*="col-"], .advertisers-largeTitle {
@@ -373,7 +373,7 @@ hr.fat {
 }
 
 .tutorial-block hr.line, #red-bolt + hr {
-  border-bottom: 1px solid #333 !important;
+    border-bottom: 1px solid #444 !important;
 }
 
 .single-navigation .prev {

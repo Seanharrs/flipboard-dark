@@ -1,399 +1,399 @@
 @-moz-document regexp("https?://(www\\.)?flipboard\\.com.*") {
-/*
-* Name:    Flipboard Dark
-* Author:  Seanharrs
-* Version: v1.0
-*/
-
-.navigation-bar .tabs .tab-item, .navigation-bar .search-container, .footer-bar, .nav-items, .page-gap,
-.grid-page, .front-door, .fill, .postbox, .toc-franchise, .loading, .loaded, .load-more, .content-loading,
-.notifications-list, .add-favorite-view-container .add-favorite-view, .search-passion .text-input,
-.search__panel, .search__zero-state, .search__more-results, a.topic-tag:hover, .topic-tag:hover,
-.selected a.topic-tag, .selected .topic-tag, .feed-layout-scope, .newspaper-layout-scope .carousel-posts__item,
-.layout-view, body, .invite-contributors-view, .create-magazine-view, .create-magazine, .content-share,
-.flip-extension-controller, .edit-item-view, .editor-cover-options-view, .editor-cover-set-item-view,
-.getapp-view, .share-article-view, #friends-search-bar, .magazine-cover-footer, .topic-tag.compact {
-  background-color: #222 !important;
-}
-
-.auth-container--modal-view {
-  background-color: rgba(30, 30, 30, 0.97) !important;
-}
-
-.navigation-bar__login-button, .auth-container--modal-view, .button, .sign-up-pagebox, .sign-up-button,
-.text-input, .sign-up-form__show-password-button, .bar .linkitem, .front-door-banner__header,
-.front-door-banner__subheader, .headline, .topic-title, .top-attribution, .excerpt, .favorites__favorite,
-.heading, .subheading, .postbox, .from, .author, .loading, .loaded, .load-more, .content-loading-text,
-.notifications-list, .add-favorite-view-container .sub-message,
-.add-favorite-view-container .add-favorite-view .favorites .favorite--not-found, .favorite .name,
-.section-header-title .header-title, .section-metrics .metric, .follow-button, .show-more-icon .show-more-wrapper,
-.meatballs-menu__dropdown-menu, .search__zero-state-featured, .search__input, .search__results li, .forgot-link,
-.newspaper-layout-scope, .newspaper-layout-scope h2, .post__title, .newspaper-layout-scope .group-magazine__create-description,
-.newspaper-layout-scope .influencer__description, .tile-layout-scope, body, .magazine-tile .tile .inner-rect.revamped,
-.dropdown-menu .dropdown-item, .flip-header, .magazine-descriptive-copy, .button--secondary-inverse, .textarea,
-.share-flip__input, .editor-item-tile-footer, #item-caption-input, .stats-dashboard, .getapp-view,
-.getapp-view .getapp-email-prompt .or, #get-email, .share-article-view .title, .search-for-friends .label,
-#friends-search-bar, .share-article-view .share-url-input, .magazine-cover-footer,
-.stats-dashboard .top-list-title.top-list-tooltip:hover div[data-tooltip]::after, .stats-dashboard .chart-title.chart-tooltip:hover div[data-tooltip]::after {
-  color: #DDD !important;
-}
-
-.hint-panel, .getapp-view .send-button:hover {
-  background-color: #D22 !important;
-}
-
-.hint-panel .button, .meatballs-menu__dropdown-menu {
-  background-color: #333 !important;
-  border: 1px solid #2C2C2C !important;
-}
-
-.search-icon g, .show-more-icon:hover path, .notification-cell g, .follow-button .check-mark, .toc-content .view-as g > g,
-.edit-icon .icon-group-inner, .editor-remove-x-icon path, .editor-tabs:hover g {
-  stroke: #F7F7F7 !important;
-}
-
-.compose-icon polygon+polygon, .tab-item--notifications path, .social-actions__list-item:hover path, .social-actions__list-item:hover svg,
-.magazine-cover-footer .lock-button > g, .magazine-cover-footer .arrow-button > g > g {
-  fill: #F7F7F7 !important;
-}
-
-.show-more path, .share-menu .icon-button, .editor-tabs g {
-  stroke: #888 !important;
-}
-
-.close-button g, .stats-dashboard .chart-container svg {
-  fill: #DDD !important;
-}
-
-.navigation-bar .tabs .tab-item .button--primary {
-  color: #000 !important;
-}
-
-.button:not(.facebook-connect), .input-wrapper, .button--secondary-inverse, .create-magazine__content-wrapper .text-input, .textarea, .share-flip__input,
-#item-caption-input, #get-email, .share-article-view .search-for-friends, .share-flip .button--secondary {
-  border: 1px solid #AEAEAE !important;
-}
-
-.search__result--topic .topic-tag, .magazine-tile .tile .inner-rect, .dropdown-men, .editor-options .edit-text-icon,
-.editor-cover-options-view, .magazine-actions .edit-text-icon {
-  border: 1px solid #7C7C7C !important;
-}
-
-.form-error, .add-favorite-view-container .add-favorite-view .recommended .recommended-title,
-.add-favorite-view-container .sub-message.filled {
-  color: #D22 !important;
-}
-
-.postbox, .section-header-title.topic, .show-more-menu, .search__panel, .search__zero-state, .share-article-view .share-url-input {
-  border: 1px solid #444 !important;
-}
-
-.section-header-title.topic, .magazine-tile .tile .inner-rect {
-  border-width: 2px !important;
-}
-
-.postbox-listitem + .postbox-listitem, .search__zero-state-footer {
-  border-top: 1px solid #444 !important;
-}
-
-.favorites-menu, .content-share .magazine-selection, .editor .secondary-column {
-  border-right: 1px solid #444 !important;
-}
-
-.navigation-bar>.bar, .notifications-list, .notification-cell, .add-favorite-view-container .add-favorite-view .add-favorites .search-passion,
-.search__result, .search__results--topics {
-  border-bottom: 1px solid #444 !important;
-}
-
-.text-input, .button:not(.facebook-connect), .input-wrapper, .form-error, div.gridline-x, div.gridline-y, .postbox, .notification-cell:hover,
-.show-more-menu, .show-more-menu .loaded, .search__zero-state-featured, .search__result--top li, a.topic-tag, .topic-tag,
-.newspaper-layout-scope .newspaper-header hr, .magazine-tile .tile .inner-rect.revamped, .profile-header-content .text[contentEditable="true"],
-.create-magazine .button--secondary-inverse, .textarea, .share-flip__input, #item-caption-input, .item-description, .chart-container, #get-email,
-.share-article-view .share-url-input, .share-flip .button--secondary, .magazine-actions .edit-text-icon {
-  background-color: #2C2C2C !important;
-}
-
-.footer-bar .bar {
-  border-top: 1px solid #AEAEAE !important;
-}
-
-.nav-items, .editor-tabs .tab-title span {
-  color: #888 !important;
-}
-
-.nav-items {
-  border-bottom: 1px solid #666 !important;
-}
-
-.nav-items .selected, .nav-items a:hover, .favorites__favorite.active, .favorites__favorite:active, .favorites__favorite .hover, .hint-panel,
-.profile-metrics .selected {
-  color: #EEE !important;
-}
-
-.meatballs-menu-button:hover .meatballs-menu-button__meatball, .meatballs-menu-button:hover .meatballs-menu-button__meatball--light {
-  background-color: #FFF !important;
-}
-
-.notifications-list {
-  border-left: 1px solid #444 !important;
-}
-
-.follow-button {
-  border: 1px solid  rgba(255, 255, 255, 0.7) !important;
-}
-
-.follow-button.hover, .search__results li.selected:not(.search__result-topic), .dropdown-menu .dropdown-item,
-.share-flip .magazine-selection__magazine.selected, .share-flip .ico-mglass {
-  background-color: #333 !important;
-}
-
-.meatballs-menu-button__meatball, .meatballs-menu-button__meatball--light {
-  background-color: #DDD !important;
-}
-
-.meatballs-menu-button--open .meatballs-menu-button__meatball {
-  background-color: #AEAEAE !important;
-}
-
-.meatballs-menu__dropdown-menu {
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5) !important;
-}
-
-.meatballs-menu__dropdown-menu li:hover, .dropdown-menu .dropdown-item:hover, .editor-options .edit-text-icon:hover, .edit-item-view a.primary,
-.stats-dashboard .top-list-title.top-list-tooltip:hover div[data-tooltip]::after, .stats-dashboard .chart-title.chart-tooltip:hover div[data-tooltip]::after {
-  background-color: #444 !important;
-}
-
-.search__zero-state-featured-link {
-  border-bottom: 1px solid #555 !important;
-}
-
-.newspaper-layout-scope .newspaper-column:not(:last-child), .tile-item {
-  border-right: 1px solid #2C2C2C !important;
-}
-
-.tile-item-wrapper, .featured-magazines-wrapper, .newspaper-column, .newspaper-column > section:not(:last-child),
-.newspaper-column .newspaper-section:not(:last-child), .group-magazine {
-  border-bottom: 1px solid #2C2C2C !important;
-}
-
-.favorites__favorite:not(.active) a:not(.hover) {
-  opacity: 0.8 !important;
-}
-
-.favorites__favorite, .favorites__favorite a {
-  opacity: 1 !important;
-}
-
-.profile-headline {
-  border-top: 1px solid #2C2C2C !important;
-}
-
-.dropdown-menu li:not(:last-child) {
-  border-bottom: 1px solid #7C7C7C !important;
-}
-
-.share-flip .ico-mglass {
-  border: 2px solid #999 !important;
-}
-
-.share-flip .ico-mglass::after {
-  background-color: #999 !important;
-}
-
-.editor-item-tile::after {
-  border: 1px solid #444 !important;
-  background-color: #2C2C2C !important;
-}
-
-.stats-dashboard .cols > *:not(:last-child) {
-  border-right: 2px solid rgba(255,255,255,0.05) !important;
-}
-
-.stats-dashboard-top-list svg > g > * {
-  fill: #888 !important;
-}
-
-.editor-tabs:hover .tab-title span {
-  color: #F7F7F7 !important;
-}
-}
-
-@-moz-document domain("about.flipboard.com") {
-/*
-* Name:    Flipboard Dark
-* Author:  Seanharrs
-* Version: v1.0
-*/
-
-body, #footer-wrapper, .site-header, .site-header.fixed .main-navigation, .site-main-wrapper {
-  background-color: #222 !important;
-}
-
-body, .main, .search-input, .black-box-title, .cssgradients .keyline-left #menu-footer-main a, .cssgradients .keyline-left #menu-footer-2nd-column a,
-.cssgradients .keyline-left .bottom-link a, .language-selector a, .main-navigation a, .cssgradients .content-padded a, .cssgradients .post-title > a, .cssgradients .post-author > a,
-.cssgradients .three-columns-home .news-item > p > a, .cssgradients .widget p a, .three-columns-home p > a, .cssgradients .publisher-slides .text-col a,
-.advertisers-stats.resources .stat a, .cssgradients .load-more-wrapper .load-more, .tutorial-heading .section-heading, .cssgradients .tutorials-sidebar .textwidget a,
-.cssgradients .question a, .cssgradients .content-padded span[style], .cssgradients .tools-landing .item .label a, .cssgradients .widget p a.contact-text,
-.cssgradients .blog-header .small-caps a, .cssgradients .getapp.get-started, .single-navigation a, .cssgradients .blog-header .entry-title a, .share-tools .widget-container .more-info a,
-.share-tools .tool-selection.active span {
-  color: #DDD !important;
-}
-
-.language-selector .selector ul li:hover a, .cssgradients .keyline-left #menu-footer-main a:hover, .cssgradients .keyline-left #menu-footer-2nd-column a:hover,
-.cssgradients .keyline-left .bottom-link a:hover, .language-selector a:hover, .main-navigation a:focus, .main-navigation a:hover, .cssgradients .content-padded a:hover,
-.site-navigation .current-menu-item > a, .cssgradients .post-title > a:hover, .cssgradients .post-author > a:hover, .cssgradients .three-columns-home .news-item > p > a:hover,
-.cssgradients .widget p a:hover, .site-main .three-columns-home .social-menu a:hover, .three-columns-home p > a:hover,
-.cssgradients .publisher-slides .text-col a:not(.btn):hover, .advertisers-stats.resources .stat a:hover, .cssgradients .load-more-wrapper .load-more:hover,
-.cssgradients .tutorials-sidebar .textwidget a:hover, .question-column .show-all, .cssgradients .question a:hover, .cssgradients .content-padded a span[style]:hover,
-.cssgradients .tools-landing .item .label a:hover, .cssgradients .widget p a.contact-text:hover, .cssgradients .blog-header .small-caps a:hover, .cssgradients .categories-list a,
-.single-navigation a:hover, .cssgradients .blog-header .entry-title a:hover, .share-tools .widget-container .more-info a:hover {
-  color: #D22 !important;
-}
-
-.footer-global {
-  border-top: 16px solid #444 !important;
-}
-
-hr.fat {
-  border-bottom: 19px solid #444 !important;
-}
-
-.page-help-center hr.fat {
-  border-bottom: 157px solid #444 !important;
-}
-
-.site-main .site-sidebar .widget {
-  border-top: 1px solid #444 !important;
-}
-
-.three-columns-home h2.headline, .site-main .site-sidebar .widget.widget_nav_menu {
-  border-top: 10px solid #444 !important;
-}
-
-.question {
-  border-top: 5px solid #444 !important;
-}
-
-.footer-sub hr.fat {
-  border-bottom-width: 30px !important;
-}
-
-.cssgradients .keyline-left #menu-footer-main a, .cssgradients .keyline-left #menu-footer-2nd-column a, .cssgradients .keyline-left .bottom-link a,
-.cssgradients .content-padded a, .cssgradients .three-columns-home .news-item > p > a, .cssgradients .widget p a, .three-columns-home p > a,
-.cssgradients .publisher-slides .text-col a:not(.btn), .cssgradients .tutorials-sidebar .textwidget a, .cssgradients .question a {
-  background-image: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0) 2px,#DDD 2px,#DDD 3px,rgba(0,0,0,0) 3px) !important;
-}
-
-.cssgradients .keyline-left #menu-footer-main a:hover, .cssgradients .keyline-left #menu-footer-2nd-column a:hover,
-.cssgradients .keyline-left .bottom-link a:hover, .cssgradients .content-padded a:hover, .cssgradients .three-columns-home .news-item > p > a:hover,
-.cssgradients .widget p a:hover, .three-columns-home p > a:hover, .cssgradients .publisher-slides .text-col a:not(.btn):hover,
-.cssgradients .tutorials-sidebar .textwidget a:hover, .cssgradients .question a:hover, .cssgradients .blog-header .small-caps a:hover, .cssgradients .categories-list a {
-  background-image: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0) 2px,#D22 2px,#D22 3px,rgba(0,0,0,0) 3px) !important;
-}
-
-.footer-global .keyline-left, .footer-sub .keyline-left, .page-template-careers-story-page-php .keyline-left, .page-help-center #sidebar {
-  border-left: 1px solid #444 !important;
-}
-
-.question-column:not(:last-child) {
-  border-right: 1px solid #444 !important;
-}
-
-.language-selector .selector > a, .cssgradients .widget.contact-us p:last-child a:hover, #fpb_twitter_widget-2 p:not(:last-child) a,
-.cssgradients .widget.contact p a, .cssgradients .widget.contact-us p a {
-  background-image: none !important;
-}
-
-.language-selector .selector > a, .language-selector .selector ul {
-  border: 1px solid #7C7C7C !important;
-}
-
-.language-selector .selector::after {
-  border-color: #DDD transparent !important;
-}
-
-.language-selector:hover .selector::after {
-  border-color: #7C7C7C transparent !important;
-}
-
-.legal-menu a {
-  color: #222 !important;
-}
-
-.legal-menu a:hover { /* inverted */
-  color: #2DD !important;
-  background-image: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0) 2px,#2DD 2px,#2DD 3px,rgba(0,0,0,0) 3px) !important;
-}
-
-.legal-menu li {
-  filter: invert(100%) !important;
-}
-
-.language-selector .selector ul {
-  background-color: #333 !important;
-}
-
-.home-main-subcopy img, .logo-module img {
-  filter: invert(87%) !important; /* approx #DDD */
-}
-
-.main-navigation {
-  border-bottom: 3px solid #D22 !important;
-}
-
-.news-item.news-rule {
-  box-shadow: none !important;
-  border-bottom: 1px solid #333 !important;
-}
-
-.publisher-slides .slide-one [class*="col-"], .advertisers-largeTitle {
-  border-bottom: 1px solid #AEAEAE !important;
-}
-
-.cssgradients .publisher-slides .text-col .btn, .cssgradients .page-header .btn, .search-input, .cssgradients .tools-landing .btn,
-.cssgradients .getapp.get-started, .tags-list a {
-  background-color: #2C2C2C !important;
-  border: 1px solid #AEAEAE !important;
-}
-
-.advertisers-largeTitle h2 .strike::after {
-  background-color: #D22 !important;
-}
-
-.advertisers-stats.resources {
-  border-top: 1px solid #AEAEAE !important;
-}
-
-.three-columns-home .widget.widget_search {
-  border: none !important;
-}
-
-.black-box-title, .module-recentposts .short-overline::before, .dropdowns-mobile {
-  background-color: #444 !important;
-}
-
-.load-more-wrapper .spinner {
-  border-color: transparent #DDD #DDD;
-}
-
-.tutorial-block hr.line, #red-bolt + hr {
-  border-bottom: 1px solid #444 !important;
-}
-
-.single-navigation .prev {
-  border-right: 1px solid #AEAEAE !important;
-}
-
-.share-tools .widget-container .more-info a {
-  text-decoration-color: #DDD !important;
-}
-
-.share-tools .widget-container .more-info a:hover {
-  text-decoration-color: #D22 !important;
-}
-
-.share-tools .tool-selection span {
-  color: #888 !important;
-}
-}
+  /*
+  * Name:    Flipboard Dark
+  * Author:  Seanharrs
+  * Version: v1.0
+  */
+
+  .navigation-bar .tabs .tab-item, .navigation-bar .search-container, .footer-bar, .nav-items, .page-gap,
+  .grid-page, .front-door, .fill, .postbox, .toc-franchise, .loading, .loaded, .load-more, .content-loading,
+  .notifications-list, .add-favorite-view-container .add-favorite-view, .search-passion .text-input,
+  .search__panel, .search__zero-state, .search__more-results, a.topic-tag:hover, .topic-tag:hover,
+  .selected a.topic-tag, .selected .topic-tag, .feed-layout-scope, .newspaper-layout-scope .carousel-posts__item,
+  .layout-view, body, .invite-contributors-view, .create-magazine-view, .create-magazine, .content-share,
+  .flip-extension-controller, .edit-item-view, .editor-cover-options-view, .editor-cover-set-item-view,
+  .getapp-view, .share-article-view, #friends-search-bar, .magazine-cover-footer, .topic-tag.compact {
+    background-color: #222 !important;
+  }
+
+  .auth-container--modal-view {
+    background-color: rgba(30, 30, 30, 0.97) !important;
+  }
+
+  .navigation-bar__login-button, .auth-container--modal-view, .button, .sign-up-pagebox, .sign-up-button,
+  .text-input, .sign-up-form__show-password-button, .bar .linkitem, .front-door-banner__header,
+  .front-door-banner__subheader, .headline, .topic-title, .top-attribution, .excerpt, .favorites__favorite,
+  .heading, .subheading, .postbox, .from, .author, .loading, .loaded, .load-more, .content-loading-text,
+  .notifications-list, .add-favorite-view-container .sub-message,
+  .add-favorite-view-container .add-favorite-view .favorites .favorite--not-found, .favorite .name,
+  .section-header-title .header-title, .section-metrics .metric, .follow-button, .show-more-icon .show-more-wrapper,
+  .meatballs-menu__dropdown-menu, .search__zero-state-featured, .search__input, .search__results li, .forgot-link,
+  .newspaper-layout-scope, .newspaper-layout-scope h2, .post__title, .newspaper-layout-scope .group-magazine__create-description,
+  .newspaper-layout-scope .influencer__description, .tile-layout-scope, body, .magazine-tile .tile .inner-rect.revamped,
+  .dropdown-menu .dropdown-item, .flip-header, .magazine-descriptive-copy, .button--secondary-inverse, .textarea,
+  .share-flip__input, .editor-item-tile-footer, #item-caption-input, .stats-dashboard, .getapp-view,
+  .getapp-view .getapp-email-prompt .or, #get-email, .share-article-view .title, .search-for-friends .label,
+  #friends-search-bar, .share-article-view .share-url-input, .magazine-cover-footer, .stats-dashboard .top-list-title.top-list-tooltip:hover div[data-tooltip]::after,
+  .stats-dashboard .chart-title.chart-tooltip:hover div[data-tooltip]::after, .main {
+    color: #DDD !important;
+  }
+
+  .hint-panel, .getapp-view .send-button:hover {
+    background-color: #D22 !important;
+  }
+
+  .hint-panel .button, .meatballs-menu__dropdown-menu {
+    background-color: #333 !important;
+    border: 1px solid #2C2C2C !important;
+  }
+
+  .search-icon g, .show-more-icon:hover path, .notification-cell g, .follow-button .check-mark, .toc-content .view-as g > g,
+  .edit-icon .icon-group-inner, .editor-remove-x-icon path, .editor-tabs:hover g {
+    stroke: #F7F7F7 !important;
+  }
+
+  .compose-icon polygon+polygon, .tab-item--notifications path, .social-actions__list-item:hover path, .social-actions__list-item:hover svg,
+  .magazine-cover-footer .lock-button > g, .magazine-cover-footer .arrow-button > g > g {
+    fill: #F7F7F7 !important;
+  }
+
+  .show-more path, .share-menu .icon-button, .editor-tabs g {
+    stroke: #888 !important;
+  }
+
+  .close-button g, .stats-dashboard .chart-container svg {
+    fill: #DDD !important;
+  }
+
+  .navigation-bar .tabs .tab-item .button--primary {
+    color: #000 !important;
+  }
+
+  .button:not(.facebook-connect), .input-wrapper, .button--secondary-inverse, .create-magazine__content-wrapper .text-input, .textarea, .share-flip__input,
+  #item-caption-input, #get-email, .share-article-view .search-for-friends, .share-flip .button--secondary {
+    border: 1px solid #AEAEAE !important;
+  }
+
+  .search__result--topic .topic-tag, .magazine-tile .tile .inner-rect, .dropdown-men, .editor-options .edit-text-icon,
+  .editor-cover-options-view, .magazine-actions .edit-text-icon {
+    border: 1px solid #7C7C7C !important;
+  }
+
+  .form-error, .add-favorite-view-container .add-favorite-view .recommended .recommended-title,
+  .add-favorite-view-container .sub-message.filled {
+    color: #D22 !important;
+  }
+
+  .postbox, .section-header-title.topic, .show-more-menu, .search__panel, .search__zero-state, .share-article-view .share-url-input {
+    border: 1px solid #444 !important;
+  }
+
+  .section-header-title.topic, .magazine-tile .tile .inner-rect {
+    border-width: 2px !important;
+  }
+
+  .postbox-listitem + .postbox-listitem, .search__zero-state-footer {
+    border-top: 1px solid #444 !important;
+  }
+
+  .favorites-menu, .content-share .magazine-selection, .editor .secondary-column {
+    border-right: 1px solid #444 !important;
+  }
+
+  .navigation-bar>.bar, .notifications-list, .notification-cell, .add-favorite-view-container .add-favorite-view .add-favorites .search-passion,
+  .search__result, .search__results--topics {
+    border-bottom: 1px solid #444 !important;
+  }
+
+  .text-input, .button:not(.facebook-connect), .input-wrapper, .form-error, div.gridline-x, div.gridline-y, .postbox, .notification-cell:hover,
+  .show-more-menu, .show-more-menu .loaded, .search__zero-state-featured, .search__result--top li, a.topic-tag, .topic-tag,
+  .newspaper-layout-scope .newspaper-header hr, .magazine-tile .tile .inner-rect.revamped, .profile-header-content .text[contentEditable="true"],
+  .create-magazine .button--secondary-inverse, .textarea, .share-flip__input, #item-caption-input, .item-description, .chart-container, #get-email,
+  .share-article-view .share-url-input, .share-flip .button--secondary, .magazine-actions .edit-text-icon {
+    background-color: #2C2C2C !important;
+  }
+
+  .footer-bar .bar {
+    border-top: 1px solid #AEAEAE !important;
+  }
+
+  .nav-items, .editor-tabs .tab-title span {
+    color: #888 !important;
+  }
+
+  .nav-items {
+    border-bottom: 1px solid #666 !important;
+  }
+
+  .nav-items .selected, .nav-items a:hover, .favorites__favorite.active, .favorites__favorite:active, .favorites__favorite .hover, .hint-panel,
+  .profile-metrics .selected {
+    color: #EEE !important;
+  }
+
+  .meatballs-menu-button:hover .meatballs-menu-button__meatball, .meatballs-menu-button:hover .meatballs-menu-button__meatball--light {
+    background-color: #FFF !important;
+  }
+
+  .notifications-list {
+    border-left: 1px solid #444 !important;
+  }
+
+  .follow-button {
+    border: 1px solid  rgba(255, 255, 255, 0.7) !important;
+  }
+
+  .follow-button.hover, .search__results li.selected:not(.search__result-topic), .dropdown-menu .dropdown-item,
+  .share-flip .magazine-selection__magazine.selected, .share-flip .ico-mglass {
+    background-color: #333 !important;
+  }
+
+  .meatballs-menu-button__meatball, .meatballs-menu-button__meatball--light {
+    background-color: #DDD !important;
+  }
+
+  .meatballs-menu-button--open .meatballs-menu-button__meatball {
+    background-color: #AEAEAE !important;
+  }
+
+  .meatballs-menu__dropdown-menu {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5) !important;
+  }
+
+  .meatballs-menu__dropdown-menu li:hover, .dropdown-menu .dropdown-item:hover, .editor-options .edit-text-icon:hover, .edit-item-view a.primary,
+  .stats-dashboard .top-list-title.top-list-tooltip:hover div[data-tooltip]::after, .stats-dashboard .chart-title.chart-tooltip:hover div[data-tooltip]::after {
+    background-color: #444 !important;
+  }
+
+  .search__zero-state-featured-link {
+    border-bottom: 1px solid #555 !important;
+  }
+
+  .newspaper-layout-scope .newspaper-column:not(:last-child), .tile-item {
+    border-right: 1px solid #2C2C2C !important;
+  }
+
+  .tile-item-wrapper, .featured-magazines-wrapper, .newspaper-column, .newspaper-column > section:not(:last-child),
+  .newspaper-column .newspaper-section:not(:last-child), .group-magazine {
+    border-bottom: 1px solid #2C2C2C !important;
+  }
+
+  .favorites__favorite:not(.active) a:not(.hover) {
+    opacity: 0.8 !important;
+  }
+
+  .favorites__favorite, .favorites__favorite a {
+    opacity: 1 !important;
+  }
+
+  .profile-headline {
+    border-top: 1px solid #2C2C2C !important;
+  }
+
+  .dropdown-menu li:not(:last-child) {
+    border-bottom: 1px solid #7C7C7C !important;
+  }
+
+  .share-flip .ico-mglass {
+    border: 2px solid #999 !important;
+  }
+
+  .share-flip .ico-mglass::after {
+    background-color: #999 !important;
+  }
+
+  .editor-item-tile::after {
+    border: 1px solid #444 !important;
+    background-color: #2C2C2C !important;
+  }
+
+  .stats-dashboard .cols > *:not(:last-child) {
+    border-right: 2px solid rgba(255,255,255,0.05) !important;
+  }
+
+  .stats-dashboard-top-list svg > g > * {
+    fill: #888 !important;
+  }
+
+  .editor-tabs:hover .tab-title span {
+    color: #F7F7F7 !important;
+  }
+  }
+
+  @-moz-document domain("about.flipboard.com") {
+  /*
+  * Name:    Flipboard Dark
+  * Author:  Seanharrs
+  * Version: v1.0
+  */
+
+  body, #footer-wrapper, .site-header, .site-header.fixed .main-navigation, .site-main-wrapper {
+    background-color: #222 !important;
+  }
+
+  body, .main, .search-input, .black-box-title, .cssgradients .keyline-left #menu-footer-main a, .cssgradients .keyline-left #menu-footer-2nd-column a,
+  .cssgradients .keyline-left .bottom-link a, .language-selector a, .main-navigation a, .cssgradients .content-padded a, .cssgradients .post-title > a, .cssgradients .post-author > a,
+  .cssgradients .three-columns-home .news-item > p > a, .cssgradients .widget p a, .three-columns-home p > a, .cssgradients .publisher-slides .text-col a,
+  .advertisers-stats.resources .stat a, .cssgradients .load-more-wrapper .load-more, .tutorial-heading .section-heading, .cssgradients .tutorials-sidebar .textwidget a,
+  .cssgradients .question a, .cssgradients .content-padded span[style], .cssgradients .tools-landing .item .label a, .cssgradients .widget p a.contact-text,
+  .cssgradients .blog-header .small-caps a, .cssgradients .getapp.get-started, .single-navigation a, .cssgradients .blog-header .entry-title a, .share-tools .widget-container .more-info a,
+  .share-tools .tool-selection.active span {
+    color: #DDD !important;
+  }
+
+  .language-selector .selector ul li:hover a, .cssgradients .keyline-left #menu-footer-main a:hover, .cssgradients .keyline-left #menu-footer-2nd-column a:hover,
+  .cssgradients .keyline-left .bottom-link a:hover, .language-selector a:hover, .main-navigation a:focus, .main-navigation a:hover, .cssgradients .content-padded a:hover,
+  .site-navigation .current-menu-item > a, .cssgradients .post-title > a:hover, .cssgradients .post-author > a:hover, .cssgradients .three-columns-home .news-item > p > a:hover,
+  .cssgradients .widget p a:hover, .site-main .three-columns-home .social-menu a:hover, .three-columns-home p > a:hover,
+  .cssgradients .publisher-slides .text-col a:not(.btn):hover, .advertisers-stats.resources .stat a:hover, .cssgradients .load-more-wrapper .load-more:hover,
+  .cssgradients .tutorials-sidebar .textwidget a:hover, .question-column .show-all, .cssgradients .question a:hover, .cssgradients .content-padded a span[style]:hover,
+  .cssgradients .tools-landing .item .label a:hover, .cssgradients .widget p a.contact-text:hover, .cssgradients .blog-header .small-caps a:hover, .cssgradients .categories-list a,
+  .single-navigation a:hover, .cssgradients .blog-header .entry-title a:hover, .share-tools .widget-container .more-info a:hover {
+    color: #D22 !important;
+  }
+
+  .footer-global {
+    border-top: 16px solid #444 !important;
+  }
+
+  hr.fat {
+    border-bottom: 19px solid #444 !important;
+  }
+
+  .page-help-center hr.fat {
+    border-bottom: 157px solid #444 !important;
+  }
+
+  .site-main .site-sidebar .widget {
+    border-top: 1px solid #444 !important;
+  }
+
+  .three-columns-home h2.headline, .site-main .site-sidebar .widget.widget_nav_menu {
+    border-top: 10px solid #444 !important;
+  }
+
+  .question {
+    border-top: 5px solid #444 !important;
+  }
+
+  .footer-sub hr.fat {
+    border-bottom-width: 30px !important;
+  }
+
+  .cssgradients .keyline-left #menu-footer-main a, .cssgradients .keyline-left #menu-footer-2nd-column a, .cssgradients .keyline-left .bottom-link a,
+  .cssgradients .content-padded a, .cssgradients .three-columns-home .news-item > p > a, .cssgradients .widget p a, .three-columns-home p > a,
+  .cssgradients .publisher-slides .text-col a:not(.btn), .cssgradients .tutorials-sidebar .textwidget a, .cssgradients .question a {
+    background-image: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0) 2px,#DDD 2px,#DDD 3px,rgba(0,0,0,0) 3px) !important;
+  }
+
+  .cssgradients .keyline-left #menu-footer-main a:hover, .cssgradients .keyline-left #menu-footer-2nd-column a:hover,
+  .cssgradients .keyline-left .bottom-link a:hover, .cssgradients .content-padded a:hover, .cssgradients .three-columns-home .news-item > p > a:hover,
+  .cssgradients .widget p a:hover, .three-columns-home p > a:hover, .cssgradients .publisher-slides .text-col a:not(.btn):hover,
+  .cssgradients .tutorials-sidebar .textwidget a:hover, .cssgradients .question a:hover, .cssgradients .blog-header .small-caps a:hover, .cssgradients .categories-list a {
+    background-image: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0) 2px,#D22 2px,#D22 3px,rgba(0,0,0,0) 3px) !important;
+  }
+
+  .footer-global .keyline-left, .footer-sub .keyline-left, .page-template-careers-story-page-php .keyline-left, .page-help-center #sidebar {
+    border-left: 1px solid #444 !important;
+  }
+
+  .question-column:not(:last-child) {
+    border-right: 1px solid #444 !important;
+  }
+
+  .language-selector .selector > a, .cssgradients .widget.contact-us p:last-child a:hover, #fpb_twitter_widget-2 p:not(:last-child) a,
+  .cssgradients .widget.contact p a, .cssgradients .widget.contact-us p a {
+    background-image: none !important;
+  }
+
+  .language-selector .selector > a, .language-selector .selector ul {
+    border: 1px solid #7C7C7C !important;
+  }
+
+  .language-selector .selector::after {
+    border-color: #DDD transparent !important;
+  }
+
+  .language-selector:hover .selector::after {
+    border-color: #7C7C7C transparent !important;
+  }
+
+  .legal-menu a {
+    color: #222 !important;
+  }
+
+  .legal-menu a:hover { /* inverted */
+    color: #2DD !important;
+    background-image: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0) 2px,#2DD 2px,#2DD 3px,rgba(0,0,0,0) 3px) !important;
+  }
+
+  .legal-menu li {
+    filter: invert(100%) !important;
+  }
+
+  .language-selector .selector ul {
+    background-color: #333 !important;
+  }
+
+  .home-main-subcopy img, .logo-module img {
+    filter: invert(87%) !important; /* approx #DDD */
+  }
+
+  .main-navigation {
+    border-bottom: 3px solid #D22 !important;
+  }
+
+  .news-item.news-rule {
+    box-shadow: none !important;
+    border-bottom: 1px solid #333 !important;
+  }
+
+  .publisher-slides .slide-one [class*="col-"], .advertisers-largeTitle {
+    border-bottom: 1px solid #AEAEAE !important;
+  }
+
+  .cssgradients .publisher-slides .text-col .btn, .cssgradients .page-header .btn, .search-input, .cssgradients .tools-landing .btn,
+  .cssgradients .getapp.get-started, .tags-list a {
+    background-color: #2C2C2C !important;
+    border: 1px solid #AEAEAE !important;
+  }
+
+  .advertisers-largeTitle h2 .strike::after {
+    background-color: #D22 !important;
+  }
+
+  .advertisers-stats.resources {
+    border-top: 1px solid #AEAEAE !important;
+  }
+
+  .three-columns-home .widget.widget_search {
+    border: none !important;
+  }
+
+  .black-box-title, .module-recentposts .short-overline::before, .dropdowns-mobile {
+    background-color: #444 !important;
+  }
+
+  .load-more-wrapper .spinner {
+    border-color: transparent #DDD #DDD;
+  }
+
+  .tutorial-block hr.line, #red-bolt + hr {
+    border-bottom: 1px solid #444 !important;
+  }
+
+  .single-navigation .prev {
+    border-right: 1px solid #AEAEAE !important;
+  }
+
+  .share-tools .widget-container .more-info a {
+    text-decoration-color: #DDD !important;
+  }
+
+  .share-tools .widget-container .more-info a:hover {
+    text-decoration-color: #D22 !important;
+  }
+
+  .share-tools .tool-selection span {
+    color: #888 !important;
+  }
+  }

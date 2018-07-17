@@ -235,7 +235,8 @@ body, .main, .search-input, .black-box-title, .cssgradients .keyline-left #menu-
 .cssgradients .three-columns-home .news-item > p > a, .cssgradients .widget p a, .three-columns-home p > a, .cssgradients .publisher-slides .text-col a,
 .advertisers-stats.resources .stat a, .cssgradients .load-more-wrapper .load-more, .tutorial-heading .section-heading, .cssgradients .tutorials-sidebar .textwidget a,
 .cssgradients .question a, .cssgradients .content-padded span[style], .cssgradients .tools-landing .item .label a, .cssgradients .widget p a.contact-text,
-.cssgradients .blog-header .small-caps a, .cssgradients .getapp.get-started, .single-navigation a, .cssgradients .blog-header .entry-title a {
+.cssgradients .blog-header .small-caps a, .cssgradients .getapp.get-started, .single-navigation a, .cssgradients .blog-header .entry-title a, .share-tools .widget-container .more-info a,
+.share-tools .tool-selection.active span {
   color: #DDD !important;
 }
 
@@ -246,7 +247,7 @@ body, .main, .search-input, .black-box-title, .cssgradients .keyline-left #menu-
 .cssgradients .publisher-slides .text-col a:not(.btn):hover, .advertisers-stats.resources .stat a:hover, .cssgradients .load-more-wrapper .load-more:hover,
 .cssgradients .tutorials-sidebar .textwidget a:hover, .question-column .show-all, .cssgradients .question a:hover, .cssgradients .content-padded a span[style]:hover,
 .cssgradients .tools-landing .item .label a:hover, .cssgradients .widget p a.contact-text:hover, .cssgradients .blog-header .small-caps a:hover, .cssgradients .categories-list a,
-.single-navigation a:hover, .cssgradients .blog-header .entry-title a:hover {
+.single-navigation a:hover, .cssgradients .blog-header .entry-title a:hover, .share-tools .widget-container .more-info a:hover {
   color: #D22 !important;
 }
 
@@ -258,8 +259,12 @@ hr.fat {
   border-bottom: 19px solid #444 !important;
 }
 
+.page-help-center hr.fat {
+  border-bottom: 157px solid #444 !important;
+}
+
 .site-main .site-sidebar .widget {
-    border-top: 1px solid #444 !important;
+  border-top: 1px solid #444 !important;
 }
 
 .three-columns-home h2.headline, .site-main .site-sidebar .widget.widget_nav_menu {
@@ -287,7 +292,7 @@ hr.fat {
   background-image: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0) 2px,#D22 2px,#D22 3px,rgba(0,0,0,0) 3px) !important;
 }
 
-.footer-global .keyline-left, .footer-sub .keyline-left, .page-template-careers-story-page-php .keyline-left {
+.footer-global .keyline-left, .footer-sub .keyline-left, .page-template-careers-story-page-php .keyline-left, .page-help-center #sidebar {
   border-left: 1px solid #444 !important;
 }
 
@@ -339,7 +344,7 @@ hr.fat {
 
 .news-item.news-rule {
   box-shadow: none !important;
-  border-bottom: 1px solid #444 !important;
+  border-bottom: 1px solid #333 !important;
 }
 
 .publisher-slides .slide-one [class*="col-"], .advertisers-largeTitle {
@@ -364,7 +369,7 @@ hr.fat {
   border: none !important;
 }
 
-.black-box-title, .module-recentposts .short-overline::before {
+.black-box-title, .module-recentposts .short-overline::before, .dropdowns-mobile {
   background-color: #444 !important;
 }
 
@@ -373,10 +378,22 @@ hr.fat {
 }
 
 .tutorial-block hr.line, #red-bolt + hr {
-    border-bottom: 1px solid #444 !important;
+  border-bottom: 1px solid #444 !important;
 }
 
 .single-navigation .prev {
   border-right: 1px solid #AEAEAE !important;
+}
+
+.share-tools .widget-container .more-info a {
+  text-decoration-color: #DDD !important;
+}
+
+.share-tools .widget-container .more-info a:hover {
+  text-decoration-color: #D22 !important;
+}
+
+.share-tools .tool-selection span {
+  color: #888 !important;
 }
 }

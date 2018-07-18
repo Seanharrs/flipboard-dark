@@ -2,7 +2,7 @@
 /*
 * Name:    Flipboard Dark
 * Author:  Seanharrs
-* Version: v1.1
+* Version: v1.2
 * Repository: https://github.com/Seanharrs/flipboard-dark
 * Issues: https://github.com/Seanharrs/flipboard-dark/issues
 */
@@ -225,7 +225,7 @@
 /*
 * Name:    Flipboard Dark
 * Author:  Seanharrs
-* Version: v1.1
+* Version: v1.2
 * Repository: https://github.com/Seanharrs/flipboard-dark
 * Issues: https://github.com/Seanharrs/flipboard-dark/issues
 */
@@ -241,7 +241,8 @@ body, .main, .search-input, .black-box-title, .cssgradients .keyline-left #menu-
 .cssgradients .question a, .cssgradients .content-padded span[style], .cssgradients .tools-landing .item .label a, .cssgradients .widget p a.contact-text,
 .cssgradients .blog-header .small-caps a, .cssgradients .getapp.get-started, .single-navigation a, .cssgradients .blog-header .entry-title a, .share-tools .widget-container .more-info a,
 .share-tools .tool-selection.active span, .share-tools .widget-container .step > .flex-container .url, .share-tools .widget-container .step .code .widget-code,
-.share-tools .widget-container .step .size .select #select-size, .cssgradients .owl-item header > h2 > a {
+.share-tools .widget-container .step .size .select #select-size, .cssgradients .owl-item header > h2 > a, .cssgradients .news-item .news-view-link,
+.cssgradients .download-link {
   color: #DDD !important;
 }
 
@@ -252,7 +253,8 @@ body, .main, .search-input, .black-box-title, .cssgradients .keyline-left #menu-
 .cssgradients .publisher-slides .text-col a:not(.btn):hover, .advertisers-stats.resources .stat a:hover, .cssgradients .load-more-wrapper .load-more:hover,
 .cssgradients .tutorials-sidebar .textwidget a:hover, .question-column .show-all, .cssgradients .question a:hover, .cssgradients .content-padded a span[style]:hover,
 .cssgradients .tools-landing .item .label a:hover, .cssgradients .widget p a.contact-text:hover, .cssgradients .blog-header .small-caps a:hover, .cssgradients .categories-list a,
-.single-navigation a:hover, .cssgradients .blog-header .entry-title a:hover, .share-tools .widget-container .more-info a:hover, .cssgradients .owl-item header > h2 > a:hover {
+.single-navigation a:hover, .cssgradients .blog-header .entry-title a:hover, .share-tools .widget-container .more-info a:hover, .cssgradients .owl-item header > h2 > a:hover,
+.cssgradients .news-item .news-view-link:hover, .cssgradients .download-link:hover {
   color: #D22 !important;
 }
 
@@ -286,7 +288,8 @@ hr.fat {
 
 .cssgradients .keyline-left #menu-footer-main a, .cssgradients .keyline-left #menu-footer-2nd-column a, .cssgradients .keyline-left .bottom-link a,
 .cssgradients .content-padded a, .cssgradients .three-columns-home .news-item > p > a, .cssgradients .widget p a, .three-columns-home p > a,
-.cssgradients .publisher-slides .text-col a:not(.btn), .cssgradients .tutorials-sidebar .textwidget a, .cssgradients .question a {
+.cssgradients .publisher-slides .text-col a:not(.btn), .cssgradients .tutorials-sidebar .textwidget a, .cssgradients .question a,
+.cssgradients .news-item .news-view-link {
   background-image: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0) 2px,#DDD 2px,#DDD 3px,rgba(0,0,0,0) 3px) !important;
 }
 
@@ -311,7 +314,7 @@ hr.fat {
   background-image: none !important;
 }
 
-.language-selector .selector > a, .language-selector .selector ul {
+.language-selector .selector > a, .language-selector .selector ul, .resource-item img {
   border: 1px solid #7C7C7C !important;
 }
 
@@ -359,12 +362,12 @@ hr.fat {
 }
 
 .cssgradients .publisher-slides .text-col .btn, .cssgradients .page-header .btn, .search-input, .cssgradients .tools-landing .btn,
-.cssgradients .getapp.get-started, .tags-list a {
+.cssgradients .getapp.get-started, .tags-list a, .cssgradients .site-sidebar .btn-black {
   background-color: #2C2C2C !important;
 }
 
 .cssgradients .publisher-slides .text-col .btn, .cssgradients .page-header .btn, .search-input, .cssgradients .tools-landing .btn,
-.cssgradients .getapp.get-started, .tags-list a, .share-tools .widget-container .step .size .select #select-size {
+.cssgradients .getapp.get-started, .tags-list a, .cssgradients .site-sidebar .btn-black, .share-tools .widget-container .step .size .select #select-size {
   border: 1px solid #AEAEAE !important;
 }
 

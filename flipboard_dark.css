@@ -14,7 +14,7 @@
 .selected a.topic-tag, .selected .topic-tag, .feed-layout-scope, .newspaper-layout-scope .carousel-posts__item,
 .layout-view, body, .invite-contributors-view, .create-magazine-view, .create-magazine, .content-share,
 .flip-extension-controller, .edit-item-view, .editor-cover-options-view, .editor-cover-set-item-view,
-.getapp-view, .share-article-view, #friends-search-bar, .magazine-cover-footer, .topic-tag.compact {
+.getapp-view, .share-article-view, #friends-search-bar, .magazine-cover-footer, .topic-tag.compact, #auth-view {
   background-color: #222 !important;
 }
 
@@ -36,7 +36,7 @@
 .share-flip__input, .editor-item-tile-footer, #item-caption-input, .stats-dashboard, .getapp-view,
 .getapp-view .getapp-email-prompt .or, #get-email, .share-article-view .title, .search-for-friends .label,
 #friends-search-bar, .share-article-view .share-url-input, .magazine-cover-footer, .stats-dashboard .top-list-title.top-list-tooltip:hover div[data-tooltip]::after,
-.stats-dashboard .chart-title.chart-tooltip:hover div[data-tooltip]::after, .main {
+.stats-dashboard .chart-title.chart-tooltip:hover div[data-tooltip]::after, .main, .auth-view__title, .auth__auth-link, .auth__or-message, .auth-login .auth__text-input {
   color: #DDD !important;
 }
 
@@ -72,7 +72,7 @@
 }
 
 .button:not(.facebook-connect), .input-wrapper, .button--secondary-inverse, .create-magazine__content-wrapper .text-input, .textarea, .share-flip__input,
-#item-caption-input, #get-email, .share-article-view .search-for-friends, .share-flip .button--secondary {
+#item-caption-input, #get-email, .share-article-view .search-for-friends, .share-flip .button--secondary, .auth-login .button--primary, .auth-login .auth__text-input {
   border: 1px solid #AEAEAE !important;
 }
 
@@ -111,7 +111,7 @@
 .show-more-menu, .show-more-menu .loaded, .search__zero-state-featured, .search__result--top li, a.topic-tag, .topic-tag,
 .newspaper-layout-scope .newspaper-header hr, .magazine-tile .tile .inner-rect.revamped, .profile-header-content .text[contentEditable="true"],
 .create-magazine .button--secondary-inverse, .textarea, .share-flip__input, #item-caption-input, .item-description, .chart-container, #get-email,
-.share-article-view .share-url-input, .share-flip .button--secondary, .magazine-actions .edit-text-icon {
+.share-article-view .share-url-input, .share-flip .button--secondary, .magazine-actions .edit-text-icon, .auth-login .button--primary, .auth-login .auth__text-input {
   background-color: #2C2C2C !important;
 }
 

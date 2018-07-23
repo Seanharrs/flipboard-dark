@@ -305,7 +305,7 @@ hr.fat {
   border-left: 1px solid #444 !important;
 }
 
-.question-column:not(:last-child) {
+.question-column:not(:last-child), .blog .blog-item.keyline-right {
   border-right: 1px solid #444 !important;
 }
 

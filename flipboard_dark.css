@@ -225,7 +225,7 @@ input::placeholder {
 * Issues: https://github.com/Seanharrs/flipboard-dark/issues
 */
 
-body, #footer-wrapper, .site-header, .site-header.fixed .main-navigation, .site-main-wrapper {
+body, #footer-wrapper, .site-header, .site-header.fixed .main-navigation, .site-main-wrapper, #navigation {
   background-color: #222 !important;
 }
 
@@ -238,7 +238,7 @@ body, .main, .search-input, .black-box-title, .cssgradients .keyline-left #menu-
 .single-navigation a, .cssgradients .blog-header .entry-title a, .share-tools .widget-container .more-info a, .share-tools .tool-selection.active span,
 .share-tools .widget-container .step > .flex-container .url, .share-tools .widget-container .step .code .widget-code,
 .share-tools .widget-container .step .size .select #select-size, .cssgradients .owl-item header > h2 > a, .cssgradients .news-item .news-view-link,
-.cssgradients .download-link, #sidebar a {
+.cssgradients .download-link, #sidebar a, .mobile-navigation-toggle a, .secondary-navigation a {
   color: #DDD !important;
 }
 
@@ -251,7 +251,7 @@ body, .main, .search-input, .black-box-title, .cssgradients .keyline-left #menu-
 .cssgradients .question a:hover, .cssgradients .content-padded a span[style]:hover, .cssgradients .tools-landing .item .label a:hover,
 .cssgradients .widget p a.contact-text:hover, .cssgradients .blog-header .small-caps a:hover, .cssgradients .categories-list a, .single-navigation a:hover,
 .cssgradients .blog-header .entry-title a:hover, .share-tools .widget-container .more-info a:hover, .cssgradients .owl-item header > h2 > a:hover,
-.cssgradients .news-item .news-view-link:hover, .cssgradients .download-link:hover, #sidebar a:hover {
+.cssgradients .news-item .news-view-link:hover, .cssgradients .download-link:hover, #sidebar a:hover, .secondary-navigation a:focus, .secondary-navigation a:hover {
   color: #D22 !important;
 }
 
@@ -369,5 +369,9 @@ body, .main, .search-input, .black-box-title, .cssgradients .keyline-left #menu-
 
 .share-tools .selections .tool-selection.active .preview {
   box-shadow: inset 0 -15px 0 0 #D22 !important;
+}
+
+.mobile-navigation-toggle a::before, .mobile-navigation-toggle a::after {
+  background-color: #DDD !important;
 }
 }
